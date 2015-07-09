@@ -1,0 +1,25 @@
+<article class="blog-post {{post_class}}">
+  <div class="wrapper">
+    <div class="row">
+      <h2 class="headline"><a href="{{url}}">{{title}}</a></h2>
+    
+      <aside class="meta">
+        <svg role="presentation" class="icon"><use xlink:href="/assets/svg/map-general.svg#general-calendar"></use></svg>
+        <time class="published" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+
+        {{#if tags }}
+        <svg role="presentation" class="icon"><use xlink:href="/assets/svg/map-general.svg#general-price-tags"></use></svg>
+        <ul class="tags">
+          {{#foreach tags}}
+            <li><a href="{{url}}">{{name}}</a></li>
+          {{/foreach}}
+        </ul>
+        {{/if}}
+      </aside>
+
+      <div class="content">
+        {{content}}
+      </div>
+    </div>
+  </div>
+</article>

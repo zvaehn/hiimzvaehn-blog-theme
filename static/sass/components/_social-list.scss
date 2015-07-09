@@ -1,0 +1,59 @@
+.social-list {
+  @extend .item-list;
+
+  > li {
+    display: inline-block;
+    margin: 0 15px;
+
+    @include breakpoint(tablet) {
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+
+    @include breakpoint(phone) {
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+
+    > a {
+      display: inline-block;
+      position: relative;
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      text-decoration: none;
+      color: $white;
+
+      &:hover {
+        &:after {
+          content: '';
+          display: block;
+          height: 55px;
+          width: 55px;
+          margin-top: -61px;
+          margin-left: 3px;
+          border-radius: 50%;
+          background-color: $primary;
+          transition: all 0.3;
+        }
+      }
+
+      &:hover .icon {
+        
+      }
+    }
+
+    > a > .icon {
+      /*width: 26px;
+      height: 26px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -13px;
+      margin-top: -13px;*/
+      width: 100%;
+      height: 100%;
+      fill: $white;
+    }
+  }
+}

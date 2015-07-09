@@ -1,0 +1,103 @@
+.col {
+  padding: 0 $grid-gutter/2;
+  float: left;
+  box-sizing: border-box;
+
+  &.-collapse {
+    padding: 0;
+  }
+
+  &.-right {
+    float: right;
+  }
+
+  &.-centered {
+    margin: 0 auto;
+    float: none;
+  }
+
+  &.-va {
+    display: inline-block;
+    margin-right: -4px; // inline-block spacing fix
+    vertical-align: middle;
+    float: none;
+  }
+}
+
+%-span-1  { width: 100% *  1/12; }
+%-span-2  { width: 100% *  2/12; }
+%-span-3  { width: 100% *  3/12; }
+%-span-4  { width: 100% *  4/12; }
+%-span-5  { width: 100% *  5/12; }
+%-span-6  { width: 100% *  6/12; }
+%-span-7  { width: 100% *  7/12; }
+%-span-8  { width: 100% *  8/12; }
+%-span-9  { width: 100% *  9/12; }
+%-span-10 { width: 100% * 10/12; }
+%-span-11 { width: 100% * 11/12; }
+%-span-12 { width: 100% * 12/12; }
+
+%-skip-1  { margin-left: 100% *  1/12; }
+%-skip-2  { margin-left: 100% *  2/12; }
+%-skip-3  { margin-left: 100% *  3/12; }
+%-skip-4  { margin-left: 100% *  4/12; }
+%-skip-5  { margin-left: 100% *  5/12; }
+%-skip-6  { margin-left: 100% *  6/12; }
+%-skip-7  { margin-left: 100% *  7/12; }
+%-skip-8  { margin-left: 100% *  8/12; }
+%-skip-9  { margin-left: 100% *  9/12; }
+%-skip-10 { margin-left: 100% * 10/12; }
+%-skip-11 { margin-left: 100% * 11/12; }
+%-skip-12 { margin-left: 100% * 12/12; }
+
+%-leave-1  { margin-right: 100% *  1/12; }
+%-leave-2  { margin-right: 100% *  2/12; }
+%-leave-3  { margin-right: 100% *  3/12; }
+%-leave-4  { margin-right: 100% *  4/12; }
+%-leave-5  { margin-right: 100% *  5/12; }
+%-leave-6  { margin-right: 100% *  6/12; }
+%-leave-7  { margin-right: 100% *  7/12; }
+%-leave-8  { margin-right: 100% *  8/12; }
+%-leave-9  { margin-right: 100% *  9/12; }
+%-leave-10 { margin-right: 100% * 10/12; }
+%-leave-11 { margin-right: 100% * 11/12; }
+%-leave-12 { margin-right: 100% * 12/12; }
+
+.-span-1  { width: 100% *  1/12; }
+.-span-2  { width: 100% *  2/12; }
+.-span-3  { width: 100% *  3/12; }
+.-span-4  { width: 100% *  4/12; }
+.-span-5  { width: 100% *  5/12; }
+.-span-6  { width: 100% *  6/12; }
+.-span-7  { width: 100% *  7/12; }
+.-span-8  { width: 100% *  8/12; }
+.-span-9  { width: 100% *  9/12; }
+.-span-10 { width: 100% * 10/12; }
+.-span-11 { width: 100% * 11/12; }
+.-span-12 { width: 100% * 12/12; }
+
+.-skip-1  { margin-left: 100% *  1/12; }
+.-skip-2  { margin-left: 100% *  2/12; }
+.-skip-3  { margin-left: 100% *  3/12; }
+.-skip-4  { margin-left: 100% *  4/12; }
+.-skip-5  { margin-left: 100% *  5/12; }
+.-skip-6  { margin-left: 100% *  6/12; }
+.-skip-7  { margin-left: 100% *  7/12; }
+.-skip-8  { margin-left: 100% *  8/12; }
+.-skip-9  { margin-left: 100% *  9/12; }
+.-skip-10 { margin-left: 100% * 10/12; }
+.-skip-11 { margin-left: 100% * 11/12; }
+.-skip-12 { margin-left: 100% * 12/12; }
+
+.-leave-1  { margin-right: 100% *  1/12; }
+.-leave-2  { margin-right: 100% *  2/12; }
+.-leave-3  { margin-right: 100% *  3/12; }
+.-leave-4  { margin-right: 100% *  4/12; }
+.-leave-5  { margin-right: 100% *  5/12; }
+.-leave-6  { margin-right: 100% *  6/12; }
+.-leave-7  { margin-right: 100% *  7/12; }
+.-leave-8  { margin-right: 100% *  8/12; }
+.-leave-9  { margin-right: 100% *  9/12; }
+.-leave-10 { margin-right: 100% * 10/12; }
+.-leave-11 { margin-right: 100% * 11/12; }
+.-leave-12 { margin-right: 100% * 12/12; }

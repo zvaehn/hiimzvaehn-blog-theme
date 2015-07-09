@@ -1,0 +1,20 @@
+.button {
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.-circle {
+    .icon {
+      fill: $white;
+    }
+  }
+
+  &.-rounded {
+    border: 1px solid $border-color;
+    border-radius: 30px;
+    padding: 10px;
+  }
+}

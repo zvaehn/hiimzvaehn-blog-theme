@@ -1,0 +1,54 @@
+{{!< default}}
+
+{{! The comment above "< default" means - insert everything in this file into
+    the {body} of the default.hbs template, which contains our header/footer. }}
+
+{{! Everything inside the #post tags pulls data from the post }}
+{{#post}}
+
+<article class="blog-post {{post_class}}">
+  <div class="wrapper">
+    <div class="row">
+      <h2 class="headline"><a href="{{url}}">{{title}}</a></h2>
+    
+      <aside class="meta">
+        <svg role="presentation" class="icon"><use xlink:href="/assets/svg/map-general.svg#general-calendar"></use></svg>
+        <time class="published" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+
+        {{#if tags }}
+        <svg role="presentation" class="icon"><use xlink:href="/assets/svg/map-general.svg#general-price-tags"></use></svg>
+        <ul class="tags">
+          {{#foreach tags}}
+            <li><a href="{{url}}">{{name}}</a></li>
+          {{/foreach}}
+        </ul>
+        {{/if}}
+      </aside>
+
+      <div class="content">
+        {{content}}
+      </div>
+    </div>
+  </div>
+</article>
+
+<section class="read-next">
+    {{#next_post}}
+    <a class="read-next-story {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}" href="{{url}}">
+        <section class="post">
+            <h2>{{title}}</h2>
+            <p>{{excerpt words="19"}}&hellip;</p>
+        </section>
+    </a>
+    {{/next_post}}
+    {{#prev_post}}
+    <a class="read-next-story prev {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}" href="{{url}}">
+        <section class="post">
+            <h2>{{title}}</h2>
+            <p>{{excerpt words="19"}}&hellip;</p>
+        </section>
+    </a>
+    {{/prev_post}}
+</section>
+
+{{/post}}

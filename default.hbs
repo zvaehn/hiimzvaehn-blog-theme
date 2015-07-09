@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="de" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta content="/static/img/favicon_128.png" itemprop="image">
+  <meta name="author" content="zvaehn">
+  <title>{{meta_title}}</title>
+  <meta name="description" content="{{meta_description}}" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" href="{{asset "/img/favicon_128.png"}}" />
+  <link rel="stylesheet" type="text/css" media="all" href="{{asset "/css/styles.css"}}" />
+  <!--<link rel="stylesheet" type="text/css" media="all" href="/static/css/styles.min.css">-->
+  <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css' />
+
+  <link rel="canonical" href="http://hiimzvaehn.de/" />
+  <meta property="og:locale" content="de_DE" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="Student. Developer. Shutterbug" />
+  <meta property="og:url" content="http://hiimzvaehn.de/" />
+  <meta property="og:site_name" content="hi im zvaehn's blog" />
+  <meta property="og:image" content="http://hiimzvaehn.de/static/img/favicon_128.png" />
+
+  <script>
+    // analytics
+  </script>
+</head>
+
+<body class="{{body_class}} nav-closed">
+    <header class="fullsize-header">
+    <h1 class="sr">Hi i am zvaehn. Student. Devleoper and Shutterbug.</h1>
+
+    <ul class="social-list" data-parallax-warp="1.5"><!-- data-fade-out="0" data-fade-out-length="60">-->
+      <li>
+        <a href="http://twitter.com/zvaehn" target="_blank">
+          <svg class="icon"><use xlink:href="/assets/svg/map-social2.svg#social2-twitter"></use></svg>
+        </a>
+      </li>
+      <li>
+        <a href="http://facebook.com/svenschiffer92" target="_blank">
+          <svg class="icon"><use xlink:href="/assets/svg/map-social2.svg#social2-facebook"></use></svg>
+        </a>
+      </li>
+      <li>
+        <a href="http://github.com/zvaehn" target="_blank">
+          <svg class="icon"><use xlink:href="/assets/svg/map-social2.svg#social2-github"></use></svg>
+        </a>
+      </li>
+      <li>
+        <a href="http://flickr.com/zvaehn" target="_blank">
+          <svg class="icon"><use xlink:href="/assets/svg/map-social2.svg#social2-flickr"></use></svg>
+        </a>
+      </li>
+      <li>
+        <a href="http://xing.com/profile/Sven_Schiffer4" target="_blank">
+          <svg class="icon"><use xlink:href="/assets/svg/map-social2.svg#social2-xing"></use></svg>
+        </a>
+      </li>
+      <li>
+        <a href="mailto:sven@51seven.de">
+          <svg class="icon"><use xlink:href="/assets/svg/map-social2.svg#social2-paperplane"></use></svg>
+        </a>
+      </li>
+    </ul>
+
+    <div class="idontknowanamefothisyet" data-parallax-warp="4">
+      <div class="title">
+        <div class="logo"><img src="/assets/img/logo.svg"></div>
+      </div>
+      <span class="subtitle">student. developer. shutterbug.</span>
+    </div>
+
+    <div class="action" data-fade-out="0" data-fade-out-length="30">
+      <button class="button -circle"><svg role="presentation" class="icon"><use xlink:href="/assets/svg/map-general.svg#general-chevron-down"></use></svg></button>
+    </div>
+  </header>
+
+  <main>
+    {{{body}}}
+  </main>
+
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="row">
+        <div class="impressum"><a href="/impressum">Impressum</a></div>
+        <div class="text">Now, you know me. Bye, im zvaehn - Proudly published with <a href="https://ghost.org">Ghost</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="/assets/js/ux.min.js"></script>
+
+
+  
+  <!--          <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>-->
+
+    {{ghost_foot}}
+</body>
+</html>

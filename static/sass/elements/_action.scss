@@ -1,0 +1,21 @@
+.action {
+
+  &.-circle {
+    border: none;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid $white;
+    background-color: transparent;
+    color: $white;
+
+    &:before {
+      @extend .icon-chevron-small-down;
+    }
+
+    > .subtext {
+      display: block;
+      color: $white;
+    }
+  } 

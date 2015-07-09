@@ -1,0 +1,31 @@
+.footer {
+  padding: 30px 0;
+
+  > .wrapper {
+    @extend .container; 
+  }
+
+  .row {
+    @extend .row;
+    margin-bottom: 0;
+  }
+
+  .impressum {
+    @extend .col;
+    @extend .col.m3;
+    @extend .col.s12;
+
+    @include breakpoint(phone) {
+      margin-bottom: 10px;   
+    }
+  }
+
+  .text {
+    @extend .col;
+    @extend .col.m9;
+    @extend .col.s12;
+
+    line-height: 1.5em;
+  }
+  
+}

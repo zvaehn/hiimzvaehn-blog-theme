@@ -1,0 +1,67 @@
+.fullsize-header {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/static/img/beach.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding-top: 130px;
+  text-align: center;
+
+  .social-list {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+
+    @include breakpoint(tablet) {
+      top: 40px;
+    }
+  }
+
+  .idontknowanamefothisyet {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+  }
+
+  .action {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    opcacity: 1;
+    text-alignt: center;
+
+    .button.-circle {
+      border: none;
+      position: relative;
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      border: 2px solid $white;
+      background-color: transparent;
+      color: $white;
+      margin-bottom: 15px;
+
+      .icon {
+        fill: $white;
+        position: absolute;
+        height: 24px;
+        width: 24px;
+        left: 50%;
+        top: 50%;
+        margin-left: -12px;
+        margin-top: -12px;
+      }
+    } 
+
+    .subtext {
+      display: block;
+      color: $white;
+      font-size: 10px;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+    }
+  }
+}

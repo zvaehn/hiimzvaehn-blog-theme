@@ -1,0 +1,77 @@
+// Libary and 3rd Party
+@import "lib/_normalize";
+//@import "lib/_bootstrap";
+@import "lib/sass/_materialize";
+
+// Misc, fonts...
+//@import "misc/*.scss";
+@import "misc/_functions";
+@import "misc/_variables";
+@import "misc/_colors";
+@import "misc/_breakpoints";
+
+// Elements
+//@import "elements/*.scss";
+@import "elements/_button";
+@import "elements/_col";
+@import "elements/_icon";
+
+// Components
+//@import "components/*.scss";
+@import "components/_item-list";
+@import "components/_social-list";
+@import "components/_tag-list";
+@import "components/_nav-list";
+@import "components/_idontknowanamefothisyet";
+@import "components/_blog-post";
+@import "components/_main-navigation";
+@import "components/_post-pagination";
+
+// Layouts
+@import "layouts/_fullsize-header";
+@import "layouts/_footer";
+
+// Global styles
+body, html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: $text-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $primary;
+    text-decoration: underline;
+  }
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 0;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+.sr {
+  display: none;
+}

@@ -1,0 +1,40 @@
+.post-pagination {
+  padding: 30px 0;
+  border-bottom: 1px solid $border-color;
+  
+  .row {
+    margin-bottom: 0;
+  }
+
+  .wrapper {
+
+    > .newer, > .older {
+
+      display: block;
+      min-height: 1px; // prevents col collapsing
+
+      a {
+        @extend .button;
+        @extend .button.-rounded;
+      }
+    }
+    
+    > .newer {
+      @extend .col;
+      @extend .col.s4;
+      text-align: left;
+    }
+
+    > .current {
+      @extend .col;
+      @extend .col.s4;
+      text-align: center;
+    }
+
+    > .older {
+      @extend .col;
+      @extend .col.s4;
+      text-align: right;
+    }
+  }
+}
