@@ -7237,7 +7237,7 @@ th {
 }
 
 /* line 1, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.container, .blog-post > .wrapper, .blog-post.-image > .wrapper, .footer > .wrapper {
+.container, .blog-post > .wrapper, .blog-post.-image > .wrapper, .post-pagination .wrapper, .footer > .wrapper {
   margin: 0 auto;
   max-width: 1020px;
   width: 90%;
@@ -7245,20 +7245,20 @@ th {
 
 @media only screen and (min-width: 480px) {
   /* line 7, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .container, .blog-post > .wrapper, .blog-post.-image > .wrapper, .footer > .wrapper {
+  .container, .blog-post > .wrapper, .blog-post.-image > .wrapper, .post-pagination .wrapper, .footer > .wrapper {
     width: 85%;
   }
 }
 
 @media only screen and (min-width: 768px) {
   /* line 12, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .container, .blog-post > .wrapper, .blog-post.-image > .wrapper, .footer > .wrapper {
+  .container, .blog-post > .wrapper, .blog-post.-image > .wrapper, .post-pagination .wrapper, .footer > .wrapper {
     width: 70%;
   }
 }
 
 /* line 16, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.container .row, .blog-post > .wrapper .row, .footer .blog-post > .wrapper .row, .footer > .wrapper .row {
+.container .row, .blog-post > .wrapper .row, .post-pagination .wrapper .row, .footer .blog-post > .wrapper .row, .footer > .wrapper .row {
   margin-left: -0.75rem;
   margin-right: -0.75rem;
 }
@@ -7299,362 +7299,362 @@ th {
 }
 
 /* line 49, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col, .row .blog-post > .wrapper .headline, .blog-post > .wrapper .row .headline, .row .blog-post > .wrapper .meta, .blog-post > .wrapper .row .meta, .row .blog-post > .wrapper .content, .blog-post > .wrapper .row .content, .row .post-pagination .wrapper > .newer, .post-pagination .row .wrapper > .newer, .row .post-pagination .wrapper > .current, .post-pagination .row .wrapper > .current, .row .post-pagination .wrapper > .older, .post-pagination .row .wrapper > .older, .row .footer .impressum, .footer .row .impressum, .row .footer .text, .footer .row .text {
+.row .col, .row .blog-post > .wrapper .headline, .blog-post > .wrapper .row .headline, .row .blog-post > .wrapper .meta, .blog-post > .wrapper .row .meta, .row .blog-post > .wrapper .content, .blog-post > .wrapper .row .content, .row .static-page, .row .post-pagination .wrapper > .newer, .post-pagination .row .wrapper > .newer, .row .post-pagination .wrapper > .current, .post-pagination .row .wrapper > .current, .row .post-pagination .wrapper > .older, .post-pagination .row .wrapper > .older, .row .footer .impressum, .footer .row .impressum, .row .footer .text, .footer .row .text {
   float: left;
   box-sizing: border-box;
   padding: 0 0.75rem;
 }
 
 /* line 56, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.s1, .row .blog-post > .wrapper .s1.headline, .blog-post > .wrapper .row .s1.headline, .row .blog-post > .wrapper .s1.meta, .blog-post > .wrapper .row .s1.meta, .row .blog-post > .wrapper .s1.content, .blog-post > .wrapper .row .s1.content, .row .post-pagination .wrapper > .s1.newer, .post-pagination .row .wrapper > .s1.newer, .row .post-pagination .wrapper > .s1.current, .post-pagination .row .wrapper > .s1.current, .row .post-pagination .wrapper > .s1.older, .post-pagination .row .wrapper > .s1.older, .row .footer .s1.impressum, .footer .row .s1.impressum, .row .footer .s1.text, .footer .row .s1.text {
+.row .col.s1, .row .blog-post > .wrapper .s1.headline, .blog-post > .wrapper .row .s1.headline, .row .blog-post > .wrapper .s1.meta, .blog-post > .wrapper .row .s1.meta, .row .blog-post > .wrapper .s1.content, .blog-post > .wrapper .row .s1.content, .row .s1.static-page, .row .post-pagination .wrapper > .s1.newer, .post-pagination .row .wrapper > .s1.newer, .row .post-pagination .wrapper > .s1.current, .post-pagination .row .wrapper > .s1.current, .row .post-pagination .wrapper > .s1.older, .post-pagination .row .wrapper > .s1.older, .row .footer .s1.impressum, .footer .row .s1.impressum, .row .footer .s1.text, .footer .row .s1.text {
   width: 8.33333%;
   margin-left: 0;
 }
 
 /* line 56, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.s2, .row .blog-post > .wrapper .s2.headline, .blog-post > .wrapper .row .s2.headline, .row .blog-post > .wrapper .s2.meta, .blog-post > .wrapper .row .s2.meta, .row .blog-post > .wrapper .s2.content, .blog-post > .wrapper .row .s2.content, .row .post-pagination .wrapper > .s2.newer, .post-pagination .row .wrapper > .s2.newer, .row .post-pagination .wrapper > .s2.current, .post-pagination .row .wrapper > .s2.current, .row .post-pagination .wrapper > .s2.older, .post-pagination .row .wrapper > .s2.older, .row .footer .s2.impressum, .footer .row .s2.impressum, .row .footer .s2.text, .footer .row .s2.text {
+.row .col.s2, .row .blog-post > .wrapper .s2.headline, .blog-post > .wrapper .row .s2.headline, .row .blog-post > .wrapper .s2.meta, .blog-post > .wrapper .row .s2.meta, .row .blog-post > .wrapper .s2.content, .blog-post > .wrapper .row .s2.content, .row .s2.static-page, .row .post-pagination .wrapper > .s2.newer, .post-pagination .row .wrapper > .s2.newer, .row .post-pagination .wrapper > .s2.current, .post-pagination .row .wrapper > .s2.current, .row .post-pagination .wrapper > .s2.older, .post-pagination .row .wrapper > .s2.older, .row .footer .s2.impressum, .footer .row .s2.impressum, .row .footer .s2.text, .footer .row .s2.text {
   width: 16.66667%;
   margin-left: 0;
 }
 
 /* line 56, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.s3, .row .blog-post > .wrapper .s3.headline, .blog-post > .wrapper .row .s3.headline, .row .blog-post > .wrapper .s3.meta, .blog-post > .wrapper .row .s3.meta, .row .blog-post > .wrapper .s3.content, .blog-post > .wrapper .row .s3.content, .row .post-pagination .wrapper > .s3.newer, .post-pagination .row .wrapper > .s3.newer, .row .post-pagination .wrapper > .s3.current, .post-pagination .row .wrapper > .s3.current, .row .post-pagination .wrapper > .s3.older, .post-pagination .row .wrapper > .s3.older, .row .footer .s3.impressum, .footer .row .s3.impressum, .row .footer .s3.text, .footer .row .s3.text {
+.row .col.s3, .row .blog-post > .wrapper .s3.headline, .blog-post > .wrapper .row .s3.headline, .row .blog-post > .wrapper .s3.meta, .blog-post > .wrapper .row .s3.meta, .row .blog-post > .wrapper .s3.content, .blog-post > .wrapper .row .s3.content, .row .s3.static-page, .row .post-pagination .wrapper > .s3.newer, .post-pagination .row .wrapper > .s3.newer, .row .post-pagination .wrapper > .s3.current, .post-pagination .row .wrapper > .s3.current, .row .post-pagination .wrapper > .s3.older, .post-pagination .row .wrapper > .s3.older, .row .footer .s3.impressum, .footer .row .s3.impressum, .row .footer .s3.text, .footer .row .s3.text {
   width: 25%;
   margin-left: 0;
 }
 
 /* line 56, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.s4, .row .blog-post > .wrapper .s4.headline, .blog-post > .wrapper .row .s4.headline, .row .blog-post > .wrapper .s4.meta, .blog-post > .wrapper .row .s4.meta, .row .blog-post > .wrapper .s4.content, .blog-post > .wrapper .row .s4.content, .row .post-pagination .wrapper > .newer, .post-pagination .row .wrapper > .newer, .row .post-pagination .wrapper > .current, .post-pagination .row .wrapper > .current, .row .post-pagination .wrapper > .older, .post-pagination .row .wrapper > .older, .row .footer .s4.impressum, .footer .row .s4.impressum, .row .footer .s4.text, .footer .row .s4.text {
+.row .col.s4, .row .blog-post > .wrapper .s4.headline, .blog-post > .wrapper .row .s4.headline, .row .blog-post > .wrapper .s4.meta, .blog-post > .wrapper .row .s4.meta, .row .blog-post > .wrapper .s4.content, .blog-post > .wrapper .row .s4.content, .row .s4.static-page, .row .post-pagination .wrapper > .newer, .post-pagination .row .wrapper > .newer, .row .post-pagination .wrapper > .current, .post-pagination .row .wrapper > .current, .row .post-pagination .wrapper > .older, .post-pagination .row .wrapper > .older, .row .footer .s4.impressum, .footer .row .s4.impressum, .row .footer .s4.text, .footer .row .s4.text {
   width: 33.33333%;
   margin-left: 0;
 }
 
 /* line 56, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.s5, .row .blog-post > .wrapper .s5.headline, .blog-post > .wrapper .row .s5.headline, .row .blog-post > .wrapper .s5.meta, .blog-post > .wrapper .row .s5.meta, .row .blog-post > .wrapper .s5.content, .blog-post > .wrapper .row .s5.content, .row .post-pagination .wrapper > .s5.newer, .post-pagination .row .wrapper > .s5.newer, .row .post-pagination .wrapper > .s5.current, .post-pagination .row .wrapper > .s5.current, .row .post-pagination .wrapper > .s5.older, .post-pagination .row .wrapper > .s5.older, .row .footer .s5.impressum, .footer .row .s5.impressum, .row .footer .s5.text, .footer .row .s5.text {
+.row .col.s5, .row .blog-post > .wrapper .s5.headline, .blog-post > .wrapper .row .s5.headline, .row .blog-post > .wrapper .s5.meta, .blog-post > .wrapper .row .s5.meta, .row .blog-post > .wrapper .s5.content, .blog-post > .wrapper .row .s5.content, .row .s5.static-page, .row .post-pagination .wrapper > .s5.newer, .post-pagination .row .wrapper > .s5.newer, .row .post-pagination .wrapper > .s5.current, .post-pagination .row .wrapper > .s5.current, .row .post-pagination .wrapper > .s5.older, .post-pagination .row .wrapper > .s5.older, .row .footer .s5.impressum, .footer .row .s5.impressum, .row .footer .s5.text, .footer .row .s5.text {
   width: 41.66667%;
   margin-left: 0;
 }
 
 /* line 56, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.s6, .row .blog-post > .wrapper .s6.headline, .blog-post > .wrapper .row .s6.headline, .row .blog-post > .wrapper .s6.meta, .blog-post > .wrapper .row .s6.meta, .row .blog-post > .wrapper .s6.content, .blog-post > .wrapper .row .s6.content, .row .post-pagination .wrapper > .s6.newer, .post-pagination .row .wrapper > .s6.newer, .row .post-pagination .wrapper > .s6.current, .post-pagination .row .wrapper > .s6.current, .row .post-pagination .wrapper > .s6.older, .post-pagination .row .wrapper > .s6.older, .row .footer .s6.impressum, .footer .row .s6.impressum, .row .footer .s6.text, .footer .row .s6.text {
+.row .col.s6, .row .blog-post > .wrapper .s6.headline, .blog-post > .wrapper .row .s6.headline, .row .blog-post > .wrapper .s6.meta, .blog-post > .wrapper .row .s6.meta, .row .blog-post > .wrapper .s6.content, .blog-post > .wrapper .row .s6.content, .row .s6.static-page, .row .post-pagination .wrapper > .s6.newer, .post-pagination .row .wrapper > .s6.newer, .row .post-pagination .wrapper > .s6.current, .post-pagination .row .wrapper > .s6.current, .row .post-pagination .wrapper > .s6.older, .post-pagination .row .wrapper > .s6.older, .row .post-pagination.-simple .wrapper > .newer, .post-pagination.-simple .row .wrapper > .newer, .row .post-pagination.-simple .wrapper > .older, .post-pagination.-simple .row .wrapper > .older, .row .footer .s6.impressum, .footer .row .s6.impressum, .row .footer .s6.text, .footer .row .s6.text {
   width: 50%;
   margin-left: 0;
 }
 
 /* line 56, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.s7, .row .blog-post > .wrapper .s7.headline, .blog-post > .wrapper .row .s7.headline, .row .blog-post > .wrapper .s7.meta, .blog-post > .wrapper .row .s7.meta, .row .blog-post > .wrapper .s7.content, .blog-post > .wrapper .row .s7.content, .row .post-pagination .wrapper > .s7.newer, .post-pagination .row .wrapper > .s7.newer, .row .post-pagination .wrapper > .s7.current, .post-pagination .row .wrapper > .s7.current, .row .post-pagination .wrapper > .s7.older, .post-pagination .row .wrapper > .s7.older, .row .footer .s7.impressum, .footer .row .s7.impressum, .row .footer .s7.text, .footer .row .s7.text {
+.row .col.s7, .row .blog-post > .wrapper .s7.headline, .blog-post > .wrapper .row .s7.headline, .row .blog-post > .wrapper .s7.meta, .blog-post > .wrapper .row .s7.meta, .row .blog-post > .wrapper .s7.content, .blog-post > .wrapper .row .s7.content, .row .s7.static-page, .row .post-pagination .wrapper > .s7.newer, .post-pagination .row .wrapper > .s7.newer, .row .post-pagination .wrapper > .s7.current, .post-pagination .row .wrapper > .s7.current, .row .post-pagination .wrapper > .s7.older, .post-pagination .row .wrapper > .s7.older, .row .footer .s7.impressum, .footer .row .s7.impressum, .row .footer .s7.text, .footer .row .s7.text {
   width: 58.33333%;
   margin-left: 0;
 }
 
 /* line 56, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.s8, .row .blog-post > .wrapper .s8.headline, .blog-post > .wrapper .row .s8.headline, .row .blog-post > .wrapper .s8.meta, .blog-post > .wrapper .row .s8.meta, .row .blog-post > .wrapper .s8.content, .blog-post > .wrapper .row .s8.content, .row .post-pagination .wrapper > .s8.newer, .post-pagination .row .wrapper > .s8.newer, .row .post-pagination .wrapper > .s8.current, .post-pagination .row .wrapper > .s8.current, .row .post-pagination .wrapper > .s8.older, .post-pagination .row .wrapper > .s8.older, .row .footer .s8.impressum, .footer .row .s8.impressum, .row .footer .s8.text, .footer .row .s8.text {
+.row .col.s8, .row .blog-post > .wrapper .s8.headline, .blog-post > .wrapper .row .s8.headline, .row .blog-post > .wrapper .s8.meta, .blog-post > .wrapper .row .s8.meta, .row .blog-post > .wrapper .s8.content, .blog-post > .wrapper .row .s8.content, .row .s8.static-page, .row .post-pagination .wrapper > .s8.newer, .post-pagination .row .wrapper > .s8.newer, .row .post-pagination .wrapper > .s8.current, .post-pagination .row .wrapper > .s8.current, .row .post-pagination .wrapper > .s8.older, .post-pagination .row .wrapper > .s8.older, .row .footer .s8.impressum, .footer .row .s8.impressum, .row .footer .s8.text, .footer .row .s8.text {
   width: 66.66667%;
   margin-left: 0;
 }
 
 /* line 56, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.s9, .row .blog-post > .wrapper .s9.headline, .blog-post > .wrapper .row .s9.headline, .row .blog-post > .wrapper .s9.meta, .blog-post > .wrapper .row .s9.meta, .row .blog-post > .wrapper .s9.content, .blog-post > .wrapper .row .s9.content, .row .post-pagination .wrapper > .s9.newer, .post-pagination .row .wrapper > .s9.newer, .row .post-pagination .wrapper > .s9.current, .post-pagination .row .wrapper > .s9.current, .row .post-pagination .wrapper > .s9.older, .post-pagination .row .wrapper > .s9.older, .row .footer .s9.impressum, .footer .row .s9.impressum, .row .footer .s9.text, .footer .row .s9.text {
+.row .col.s9, .row .blog-post > .wrapper .s9.headline, .blog-post > .wrapper .row .s9.headline, .row .blog-post > .wrapper .s9.meta, .blog-post > .wrapper .row .s9.meta, .row .blog-post > .wrapper .s9.content, .blog-post > .wrapper .row .s9.content, .row .s9.static-page, .row .post-pagination .wrapper > .s9.newer, .post-pagination .row .wrapper > .s9.newer, .row .post-pagination .wrapper > .s9.current, .post-pagination .row .wrapper > .s9.current, .row .post-pagination .wrapper > .s9.older, .post-pagination .row .wrapper > .s9.older, .row .footer .s9.impressum, .footer .row .s9.impressum, .row .footer .s9.text, .footer .row .s9.text {
   width: 75%;
   margin-left: 0;
 }
 
 /* line 56, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.s10, .row .blog-post > .wrapper .s10.headline, .blog-post > .wrapper .row .s10.headline, .row .blog-post > .wrapper .s10.meta, .blog-post > .wrapper .row .s10.meta, .row .blog-post > .wrapper .s10.content, .blog-post > .wrapper .row .s10.content, .row .post-pagination .wrapper > .s10.newer, .post-pagination .row .wrapper > .s10.newer, .row .post-pagination .wrapper > .s10.current, .post-pagination .row .wrapper > .s10.current, .row .post-pagination .wrapper > .s10.older, .post-pagination .row .wrapper > .s10.older, .row .footer .s10.impressum, .footer .row .s10.impressum, .row .footer .s10.text, .footer .row .s10.text {
+.row .col.s10, .row .blog-post > .wrapper .s10.headline, .blog-post > .wrapper .row .s10.headline, .row .blog-post > .wrapper .s10.meta, .blog-post > .wrapper .row .s10.meta, .row .blog-post > .wrapper .s10.content, .blog-post > .wrapper .row .s10.content, .row .s10.static-page, .row .post-pagination .wrapper > .s10.newer, .post-pagination .row .wrapper > .s10.newer, .row .post-pagination .wrapper > .s10.current, .post-pagination .row .wrapper > .s10.current, .row .post-pagination .wrapper > .s10.older, .post-pagination .row .wrapper > .s10.older, .row .footer .s10.impressum, .footer .row .s10.impressum, .row .footer .s10.text, .footer .row .s10.text {
   width: 83.33333%;
   margin-left: 0;
 }
 
 /* line 56, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.s11, .row .blog-post > .wrapper .s11.headline, .blog-post > .wrapper .row .s11.headline, .row .blog-post > .wrapper .s11.meta, .blog-post > .wrapper .row .s11.meta, .row .blog-post > .wrapper .s11.content, .blog-post > .wrapper .row .s11.content, .row .post-pagination .wrapper > .s11.newer, .post-pagination .row .wrapper > .s11.newer, .row .post-pagination .wrapper > .s11.current, .post-pagination .row .wrapper > .s11.current, .row .post-pagination .wrapper > .s11.older, .post-pagination .row .wrapper > .s11.older, .row .footer .s11.impressum, .footer .row .s11.impressum, .row .footer .s11.text, .footer .row .s11.text {
+.row .col.s11, .row .blog-post > .wrapper .s11.headline, .blog-post > .wrapper .row .s11.headline, .row .blog-post > .wrapper .s11.meta, .blog-post > .wrapper .row .s11.meta, .row .blog-post > .wrapper .s11.content, .blog-post > .wrapper .row .s11.content, .row .s11.static-page, .row .post-pagination .wrapper > .s11.newer, .post-pagination .row .wrapper > .s11.newer, .row .post-pagination .wrapper > .s11.current, .post-pagination .row .wrapper > .s11.current, .row .post-pagination .wrapper > .s11.older, .post-pagination .row .wrapper > .s11.older, .row .footer .s11.impressum, .footer .row .s11.impressum, .row .footer .s11.text, .footer .row .s11.text {
   width: 91.66667%;
   margin-left: 0;
 }
 
 /* line 56, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.s12, .row .blog-post > .wrapper .headline, .blog-post > .wrapper .row .headline, .row .blog-post > .wrapper .meta, .blog-post > .wrapper .row .meta, .row .blog-post > .wrapper .content, .blog-post > .wrapper .row .content, .row .post-pagination .wrapper > .s12.newer, .post-pagination .row .wrapper > .s12.newer, .row .post-pagination .wrapper > .s12.current, .post-pagination .row .wrapper > .s12.current, .row .post-pagination .wrapper > .s12.older, .post-pagination .row .wrapper > .s12.older, .row .footer .impressum, .footer .row .impressum, .row .footer .text, .footer .row .text {
+.row .col.s12, .row .blog-post > .wrapper .headline, .blog-post > .wrapper .row .headline, .row .blog-post > .wrapper .meta, .blog-post > .wrapper .row .meta, .row .blog-post > .wrapper .content, .blog-post > .wrapper .row .content, .row .static-page, .row .post-pagination .wrapper > .s12.newer, .post-pagination .row .wrapper > .s12.newer, .row .post-pagination .wrapper > .s12.current, .post-pagination .row .wrapper > .s12.current, .row .post-pagination .wrapper > .s12.older, .post-pagination .row .wrapper > .s12.older, .row .footer .impressum, .footer .row .impressum, .row .footer .text, .footer .row .text {
   width: 100%;
   margin-left: 0;
 }
 
 /* line 65, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.offset-s1, .row .blog-post > .wrapper .offset-s1.headline, .blog-post > .wrapper .row .offset-s1.headline, .row .blog-post > .wrapper .offset-s1.meta, .blog-post > .wrapper .row .offset-s1.meta, .row .blog-post > .wrapper .offset-s1.content, .blog-post > .wrapper .row .offset-s1.content, .row .post-pagination .wrapper > .offset-s1.newer, .post-pagination .row .wrapper > .offset-s1.newer, .row .post-pagination .wrapper > .offset-s1.current, .post-pagination .row .wrapper > .offset-s1.current, .row .post-pagination .wrapper > .offset-s1.older, .post-pagination .row .wrapper > .offset-s1.older, .row .footer .offset-s1.impressum, .footer .row .offset-s1.impressum, .row .footer .offset-s1.text, .footer .row .offset-s1.text {
+.row .col.offset-s1, .row .blog-post > .wrapper .offset-s1.headline, .blog-post > .wrapper .row .offset-s1.headline, .row .blog-post > .wrapper .offset-s1.meta, .blog-post > .wrapper .row .offset-s1.meta, .row .blog-post > .wrapper .offset-s1.content, .blog-post > .wrapper .row .offset-s1.content, .row .offset-s1.static-page, .row .post-pagination .wrapper > .offset-s1.newer, .post-pagination .row .wrapper > .offset-s1.newer, .row .post-pagination .wrapper > .offset-s1.current, .post-pagination .row .wrapper > .offset-s1.current, .row .post-pagination .wrapper > .offset-s1.older, .post-pagination .row .wrapper > .offset-s1.older, .row .footer .offset-s1.impressum, .footer .row .offset-s1.impressum, .row .footer .offset-s1.text, .footer .row .offset-s1.text {
   margin-left: 8.33333%;
 }
 
 /* line 65, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.offset-s2, .row .blog-post > .wrapper .offset-s2.headline, .blog-post > .wrapper .row .offset-s2.headline, .row .blog-post > .wrapper .offset-s2.meta, .blog-post > .wrapper .row .offset-s2.meta, .row .blog-post > .wrapper .offset-s2.content, .blog-post > .wrapper .row .offset-s2.content, .row .post-pagination .wrapper > .offset-s2.newer, .post-pagination .row .wrapper > .offset-s2.newer, .row .post-pagination .wrapper > .offset-s2.current, .post-pagination .row .wrapper > .offset-s2.current, .row .post-pagination .wrapper > .offset-s2.older, .post-pagination .row .wrapper > .offset-s2.older, .row .footer .offset-s2.impressum, .footer .row .offset-s2.impressum, .row .footer .offset-s2.text, .footer .row .offset-s2.text {
+.row .col.offset-s2, .row .blog-post > .wrapper .offset-s2.headline, .blog-post > .wrapper .row .offset-s2.headline, .row .blog-post > .wrapper .offset-s2.meta, .blog-post > .wrapper .row .offset-s2.meta, .row .blog-post > .wrapper .offset-s2.content, .blog-post > .wrapper .row .offset-s2.content, .row .offset-s2.static-page, .row .post-pagination .wrapper > .offset-s2.newer, .post-pagination .row .wrapper > .offset-s2.newer, .row .post-pagination .wrapper > .offset-s2.current, .post-pagination .row .wrapper > .offset-s2.current, .row .post-pagination .wrapper > .offset-s2.older, .post-pagination .row .wrapper > .offset-s2.older, .row .footer .offset-s2.impressum, .footer .row .offset-s2.impressum, .row .footer .offset-s2.text, .footer .row .offset-s2.text {
   margin-left: 16.66667%;
 }
 
 /* line 65, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.offset-s3, .row .blog-post > .wrapper .offset-s3.headline, .blog-post > .wrapper .row .offset-s3.headline, .row .blog-post > .wrapper .offset-s3.meta, .blog-post > .wrapper .row .offset-s3.meta, .row .blog-post > .wrapper .offset-s3.content, .blog-post > .wrapper .row .offset-s3.content, .row .post-pagination .wrapper > .offset-s3.newer, .post-pagination .row .wrapper > .offset-s3.newer, .row .post-pagination .wrapper > .offset-s3.current, .post-pagination .row .wrapper > .offset-s3.current, .row .post-pagination .wrapper > .offset-s3.older, .post-pagination .row .wrapper > .offset-s3.older, .row .footer .offset-s3.impressum, .footer .row .offset-s3.impressum, .row .footer .offset-s3.text, .footer .row .offset-s3.text {
+.row .col.offset-s3, .row .blog-post > .wrapper .offset-s3.headline, .blog-post > .wrapper .row .offset-s3.headline, .row .blog-post > .wrapper .offset-s3.meta, .blog-post > .wrapper .row .offset-s3.meta, .row .blog-post > .wrapper .offset-s3.content, .blog-post > .wrapper .row .offset-s3.content, .row .offset-s3.static-page, .row .post-pagination .wrapper > .offset-s3.newer, .post-pagination .row .wrapper > .offset-s3.newer, .row .post-pagination .wrapper > .offset-s3.current, .post-pagination .row .wrapper > .offset-s3.current, .row .post-pagination .wrapper > .offset-s3.older, .post-pagination .row .wrapper > .offset-s3.older, .row .footer .offset-s3.impressum, .footer .row .offset-s3.impressum, .row .footer .offset-s3.text, .footer .row .offset-s3.text {
   margin-left: 25%;
 }
 
 /* line 65, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.offset-s4, .row .blog-post > .wrapper .offset-s4.headline, .blog-post > .wrapper .row .offset-s4.headline, .row .blog-post > .wrapper .offset-s4.meta, .blog-post > .wrapper .row .offset-s4.meta, .row .blog-post > .wrapper .offset-s4.content, .blog-post > .wrapper .row .offset-s4.content, .row .post-pagination .wrapper > .offset-s4.newer, .post-pagination .row .wrapper > .offset-s4.newer, .row .post-pagination .wrapper > .offset-s4.current, .post-pagination .row .wrapper > .offset-s4.current, .row .post-pagination .wrapper > .offset-s4.older, .post-pagination .row .wrapper > .offset-s4.older, .row .footer .offset-s4.impressum, .footer .row .offset-s4.impressum, .row .footer .offset-s4.text, .footer .row .offset-s4.text {
+.row .col.offset-s4, .row .blog-post > .wrapper .offset-s4.headline, .blog-post > .wrapper .row .offset-s4.headline, .row .blog-post > .wrapper .offset-s4.meta, .blog-post > .wrapper .row .offset-s4.meta, .row .blog-post > .wrapper .offset-s4.content, .blog-post > .wrapper .row .offset-s4.content, .row .offset-s4.static-page, .row .post-pagination .wrapper > .offset-s4.newer, .post-pagination .row .wrapper > .offset-s4.newer, .row .post-pagination .wrapper > .offset-s4.current, .post-pagination .row .wrapper > .offset-s4.current, .row .post-pagination .wrapper > .offset-s4.older, .post-pagination .row .wrapper > .offset-s4.older, .row .footer .offset-s4.impressum, .footer .row .offset-s4.impressum, .row .footer .offset-s4.text, .footer .row .offset-s4.text {
   margin-left: 33.33333%;
 }
 
 /* line 65, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.offset-s5, .row .blog-post > .wrapper .offset-s5.headline, .blog-post > .wrapper .row .offset-s5.headline, .row .blog-post > .wrapper .offset-s5.meta, .blog-post > .wrapper .row .offset-s5.meta, .row .blog-post > .wrapper .offset-s5.content, .blog-post > .wrapper .row .offset-s5.content, .row .post-pagination .wrapper > .offset-s5.newer, .post-pagination .row .wrapper > .offset-s5.newer, .row .post-pagination .wrapper > .offset-s5.current, .post-pagination .row .wrapper > .offset-s5.current, .row .post-pagination .wrapper > .offset-s5.older, .post-pagination .row .wrapper > .offset-s5.older, .row .footer .offset-s5.impressum, .footer .row .offset-s5.impressum, .row .footer .offset-s5.text, .footer .row .offset-s5.text {
+.row .col.offset-s5, .row .blog-post > .wrapper .offset-s5.headline, .blog-post > .wrapper .row .offset-s5.headline, .row .blog-post > .wrapper .offset-s5.meta, .blog-post > .wrapper .row .offset-s5.meta, .row .blog-post > .wrapper .offset-s5.content, .blog-post > .wrapper .row .offset-s5.content, .row .offset-s5.static-page, .row .post-pagination .wrapper > .offset-s5.newer, .post-pagination .row .wrapper > .offset-s5.newer, .row .post-pagination .wrapper > .offset-s5.current, .post-pagination .row .wrapper > .offset-s5.current, .row .post-pagination .wrapper > .offset-s5.older, .post-pagination .row .wrapper > .offset-s5.older, .row .footer .offset-s5.impressum, .footer .row .offset-s5.impressum, .row .footer .offset-s5.text, .footer .row .offset-s5.text {
   margin-left: 41.66667%;
 }
 
 /* line 65, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.offset-s6, .row .blog-post > .wrapper .offset-s6.headline, .blog-post > .wrapper .row .offset-s6.headline, .row .blog-post > .wrapper .offset-s6.meta, .blog-post > .wrapper .row .offset-s6.meta, .row .blog-post > .wrapper .offset-s6.content, .blog-post > .wrapper .row .offset-s6.content, .row .post-pagination .wrapper > .offset-s6.newer, .post-pagination .row .wrapper > .offset-s6.newer, .row .post-pagination .wrapper > .offset-s6.current, .post-pagination .row .wrapper > .offset-s6.current, .row .post-pagination .wrapper > .offset-s6.older, .post-pagination .row .wrapper > .offset-s6.older, .row .footer .offset-s6.impressum, .footer .row .offset-s6.impressum, .row .footer .offset-s6.text, .footer .row .offset-s6.text {
+.row .col.offset-s6, .row .blog-post > .wrapper .offset-s6.headline, .blog-post > .wrapper .row .offset-s6.headline, .row .blog-post > .wrapper .offset-s6.meta, .blog-post > .wrapper .row .offset-s6.meta, .row .blog-post > .wrapper .offset-s6.content, .blog-post > .wrapper .row .offset-s6.content, .row .offset-s6.static-page, .row .post-pagination .wrapper > .offset-s6.newer, .post-pagination .row .wrapper > .offset-s6.newer, .row .post-pagination .wrapper > .offset-s6.current, .post-pagination .row .wrapper > .offset-s6.current, .row .post-pagination .wrapper > .offset-s6.older, .post-pagination .row .wrapper > .offset-s6.older, .row .footer .offset-s6.impressum, .footer .row .offset-s6.impressum, .row .footer .offset-s6.text, .footer .row .offset-s6.text {
   margin-left: 50%;
 }
 
 /* line 65, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.offset-s7, .row .blog-post > .wrapper .offset-s7.headline, .blog-post > .wrapper .row .offset-s7.headline, .row .blog-post > .wrapper .offset-s7.meta, .blog-post > .wrapper .row .offset-s7.meta, .row .blog-post > .wrapper .offset-s7.content, .blog-post > .wrapper .row .offset-s7.content, .row .post-pagination .wrapper > .offset-s7.newer, .post-pagination .row .wrapper > .offset-s7.newer, .row .post-pagination .wrapper > .offset-s7.current, .post-pagination .row .wrapper > .offset-s7.current, .row .post-pagination .wrapper > .offset-s7.older, .post-pagination .row .wrapper > .offset-s7.older, .row .footer .offset-s7.impressum, .footer .row .offset-s7.impressum, .row .footer .offset-s7.text, .footer .row .offset-s7.text {
+.row .col.offset-s7, .row .blog-post > .wrapper .offset-s7.headline, .blog-post > .wrapper .row .offset-s7.headline, .row .blog-post > .wrapper .offset-s7.meta, .blog-post > .wrapper .row .offset-s7.meta, .row .blog-post > .wrapper .offset-s7.content, .blog-post > .wrapper .row .offset-s7.content, .row .offset-s7.static-page, .row .post-pagination .wrapper > .offset-s7.newer, .post-pagination .row .wrapper > .offset-s7.newer, .row .post-pagination .wrapper > .offset-s7.current, .post-pagination .row .wrapper > .offset-s7.current, .row .post-pagination .wrapper > .offset-s7.older, .post-pagination .row .wrapper > .offset-s7.older, .row .footer .offset-s7.impressum, .footer .row .offset-s7.impressum, .row .footer .offset-s7.text, .footer .row .offset-s7.text {
   margin-left: 58.33333%;
 }
 
 /* line 65, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.offset-s8, .row .blog-post > .wrapper .offset-s8.headline, .blog-post > .wrapper .row .offset-s8.headline, .row .blog-post > .wrapper .offset-s8.meta, .blog-post > .wrapper .row .offset-s8.meta, .row .blog-post > .wrapper .offset-s8.content, .blog-post > .wrapper .row .offset-s8.content, .row .post-pagination .wrapper > .offset-s8.newer, .post-pagination .row .wrapper > .offset-s8.newer, .row .post-pagination .wrapper > .offset-s8.current, .post-pagination .row .wrapper > .offset-s8.current, .row .post-pagination .wrapper > .offset-s8.older, .post-pagination .row .wrapper > .offset-s8.older, .row .footer .offset-s8.impressum, .footer .row .offset-s8.impressum, .row .footer .offset-s8.text, .footer .row .offset-s8.text {
+.row .col.offset-s8, .row .blog-post > .wrapper .offset-s8.headline, .blog-post > .wrapper .row .offset-s8.headline, .row .blog-post > .wrapper .offset-s8.meta, .blog-post > .wrapper .row .offset-s8.meta, .row .blog-post > .wrapper .offset-s8.content, .blog-post > .wrapper .row .offset-s8.content, .row .offset-s8.static-page, .row .post-pagination .wrapper > .offset-s8.newer, .post-pagination .row .wrapper > .offset-s8.newer, .row .post-pagination .wrapper > .offset-s8.current, .post-pagination .row .wrapper > .offset-s8.current, .row .post-pagination .wrapper > .offset-s8.older, .post-pagination .row .wrapper > .offset-s8.older, .row .footer .offset-s8.impressum, .footer .row .offset-s8.impressum, .row .footer .offset-s8.text, .footer .row .offset-s8.text {
   margin-left: 66.66667%;
 }
 
 /* line 65, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.offset-s9, .row .blog-post > .wrapper .offset-s9.headline, .blog-post > .wrapper .row .offset-s9.headline, .row .blog-post > .wrapper .offset-s9.meta, .blog-post > .wrapper .row .offset-s9.meta, .row .blog-post > .wrapper .offset-s9.content, .blog-post > .wrapper .row .offset-s9.content, .row .post-pagination .wrapper > .offset-s9.newer, .post-pagination .row .wrapper > .offset-s9.newer, .row .post-pagination .wrapper > .offset-s9.current, .post-pagination .row .wrapper > .offset-s9.current, .row .post-pagination .wrapper > .offset-s9.older, .post-pagination .row .wrapper > .offset-s9.older, .row .footer .offset-s9.impressum, .footer .row .offset-s9.impressum, .row .footer .offset-s9.text, .footer .row .offset-s9.text {
+.row .col.offset-s9, .row .blog-post > .wrapper .offset-s9.headline, .blog-post > .wrapper .row .offset-s9.headline, .row .blog-post > .wrapper .offset-s9.meta, .blog-post > .wrapper .row .offset-s9.meta, .row .blog-post > .wrapper .offset-s9.content, .blog-post > .wrapper .row .offset-s9.content, .row .offset-s9.static-page, .row .post-pagination .wrapper > .offset-s9.newer, .post-pagination .row .wrapper > .offset-s9.newer, .row .post-pagination .wrapper > .offset-s9.current, .post-pagination .row .wrapper > .offset-s9.current, .row .post-pagination .wrapper > .offset-s9.older, .post-pagination .row .wrapper > .offset-s9.older, .row .footer .offset-s9.impressum, .footer .row .offset-s9.impressum, .row .footer .offset-s9.text, .footer .row .offset-s9.text {
   margin-left: 75%;
 }
 
 /* line 65, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.offset-s10, .row .blog-post > .wrapper .offset-s10.headline, .blog-post > .wrapper .row .offset-s10.headline, .row .blog-post > .wrapper .offset-s10.meta, .blog-post > .wrapper .row .offset-s10.meta, .row .blog-post > .wrapper .offset-s10.content, .blog-post > .wrapper .row .offset-s10.content, .row .post-pagination .wrapper > .offset-s10.newer, .post-pagination .row .wrapper > .offset-s10.newer, .row .post-pagination .wrapper > .offset-s10.current, .post-pagination .row .wrapper > .offset-s10.current, .row .post-pagination .wrapper > .offset-s10.older, .post-pagination .row .wrapper > .offset-s10.older, .row .footer .offset-s10.impressum, .footer .row .offset-s10.impressum, .row .footer .offset-s10.text, .footer .row .offset-s10.text {
+.row .col.offset-s10, .row .blog-post > .wrapper .offset-s10.headline, .blog-post > .wrapper .row .offset-s10.headline, .row .blog-post > .wrapper .offset-s10.meta, .blog-post > .wrapper .row .offset-s10.meta, .row .blog-post > .wrapper .offset-s10.content, .blog-post > .wrapper .row .offset-s10.content, .row .offset-s10.static-page, .row .post-pagination .wrapper > .offset-s10.newer, .post-pagination .row .wrapper > .offset-s10.newer, .row .post-pagination .wrapper > .offset-s10.current, .post-pagination .row .wrapper > .offset-s10.current, .row .post-pagination .wrapper > .offset-s10.older, .post-pagination .row .wrapper > .offset-s10.older, .row .footer .offset-s10.impressum, .footer .row .offset-s10.impressum, .row .footer .offset-s10.text, .footer .row .offset-s10.text {
   margin-left: 83.33333%;
 }
 
 /* line 65, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.offset-s11, .row .blog-post > .wrapper .offset-s11.headline, .blog-post > .wrapper .row .offset-s11.headline, .row .blog-post > .wrapper .offset-s11.meta, .blog-post > .wrapper .row .offset-s11.meta, .row .blog-post > .wrapper .offset-s11.content, .blog-post > .wrapper .row .offset-s11.content, .row .post-pagination .wrapper > .offset-s11.newer, .post-pagination .row .wrapper > .offset-s11.newer, .row .post-pagination .wrapper > .offset-s11.current, .post-pagination .row .wrapper > .offset-s11.current, .row .post-pagination .wrapper > .offset-s11.older, .post-pagination .row .wrapper > .offset-s11.older, .row .footer .offset-s11.impressum, .footer .row .offset-s11.impressum, .row .footer .offset-s11.text, .footer .row .offset-s11.text {
+.row .col.offset-s11, .row .blog-post > .wrapper .offset-s11.headline, .blog-post > .wrapper .row .offset-s11.headline, .row .blog-post > .wrapper .offset-s11.meta, .blog-post > .wrapper .row .offset-s11.meta, .row .blog-post > .wrapper .offset-s11.content, .blog-post > .wrapper .row .offset-s11.content, .row .offset-s11.static-page, .row .post-pagination .wrapper > .offset-s11.newer, .post-pagination .row .wrapper > .offset-s11.newer, .row .post-pagination .wrapper > .offset-s11.current, .post-pagination .row .wrapper > .offset-s11.current, .row .post-pagination .wrapper > .offset-s11.older, .post-pagination .row .wrapper > .offset-s11.older, .row .footer .offset-s11.impressum, .footer .row .offset-s11.impressum, .row .footer .offset-s11.text, .footer .row .offset-s11.text {
   margin-left: 91.66667%;
 }
 
 /* line 65, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.row .col.offset-s12, .row .blog-post > .wrapper .offset-s12.headline, .blog-post > .wrapper .row .offset-s12.headline, .row .blog-post > .wrapper .offset-s12.meta, .blog-post > .wrapper .row .offset-s12.meta, .row .blog-post > .wrapper .offset-s12.content, .blog-post > .wrapper .row .offset-s12.content, .row .post-pagination .wrapper > .offset-s12.newer, .post-pagination .row .wrapper > .offset-s12.newer, .row .post-pagination .wrapper > .offset-s12.current, .post-pagination .row .wrapper > .offset-s12.current, .row .post-pagination .wrapper > .offset-s12.older, .post-pagination .row .wrapper > .offset-s12.older, .row .footer .offset-s12.impressum, .footer .row .offset-s12.impressum, .row .footer .offset-s12.text, .footer .row .offset-s12.text {
+.row .col.offset-s12, .row .blog-post > .wrapper .offset-s12.headline, .blog-post > .wrapper .row .offset-s12.headline, .row .blog-post > .wrapper .offset-s12.meta, .blog-post > .wrapper .row .offset-s12.meta, .row .blog-post > .wrapper .offset-s12.content, .blog-post > .wrapper .row .offset-s12.content, .row .offset-s12.static-page, .row .post-pagination .wrapper > .offset-s12.newer, .post-pagination .row .wrapper > .offset-s12.newer, .row .post-pagination .wrapper > .offset-s12.current, .post-pagination .row .wrapper > .offset-s12.current, .row .post-pagination .wrapper > .offset-s12.older, .post-pagination .row .wrapper > .offset-s12.older, .row .footer .offset-s12.impressum, .footer .row .offset-s12.impressum, .row .footer .offset-s12.text, .footer .row .offset-s12.text {
   margin-left: 100%;
 }
 
 @media only screen and (min-width: 480px) {
   /* line 76, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.m1, .row .blog-post > .wrapper .m1.headline, .blog-post > .wrapper .row .m1.headline, .row .blog-post > .wrapper .m1.meta, .blog-post > .wrapper .row .m1.meta, .row .blog-post > .wrapper .m1.content, .blog-post > .wrapper .row .m1.content, .row .post-pagination .wrapper > .m1.newer, .post-pagination .row .wrapper > .m1.newer, .row .post-pagination .wrapper > .m1.current, .post-pagination .row .wrapper > .m1.current, .row .post-pagination .wrapper > .m1.older, .post-pagination .row .wrapper > .m1.older, .row .footer .m1.impressum, .footer .row .m1.impressum, .row .footer .m1.text, .footer .row .m1.text {
+  .row .col.m1, .row .blog-post > .wrapper .m1.headline, .blog-post > .wrapper .row .m1.headline, .row .blog-post > .wrapper .m1.meta, .blog-post > .wrapper .row .m1.meta, .row .blog-post > .wrapper .m1.content, .blog-post > .wrapper .row .m1.content, .row .m1.static-page, .row .post-pagination .wrapper > .m1.newer, .post-pagination .row .wrapper > .m1.newer, .row .post-pagination .wrapper > .m1.current, .post-pagination .row .wrapper > .m1.current, .row .post-pagination .wrapper > .m1.older, .post-pagination .row .wrapper > .m1.older, .row .footer .m1.impressum, .footer .row .m1.impressum, .row .footer .m1.text, .footer .row .m1.text {
     width: 8.33333%;
     margin-left: 0;
   }
   /* line 76, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.m2, .row .blog-post > .wrapper .m2.headline, .blog-post > .wrapper .row .m2.headline, .row .blog-post > .wrapper .m2.meta, .blog-post > .wrapper .row .m2.meta, .row .blog-post > .wrapper .m2.content, .blog-post > .wrapper .row .m2.content, .row .post-pagination .wrapper > .m2.newer, .post-pagination .row .wrapper > .m2.newer, .row .post-pagination .wrapper > .m2.current, .post-pagination .row .wrapper > .m2.current, .row .post-pagination .wrapper > .m2.older, .post-pagination .row .wrapper > .m2.older, .row .footer .m2.impressum, .footer .row .m2.impressum, .row .footer .m2.text, .footer .row .m2.text {
+  .row .col.m2, .row .blog-post > .wrapper .m2.headline, .blog-post > .wrapper .row .m2.headline, .row .blog-post > .wrapper .m2.meta, .blog-post > .wrapper .row .m2.meta, .row .blog-post > .wrapper .m2.content, .blog-post > .wrapper .row .m2.content, .row .m2.static-page, .row .post-pagination .wrapper > .m2.newer, .post-pagination .row .wrapper > .m2.newer, .row .post-pagination .wrapper > .m2.current, .post-pagination .row .wrapper > .m2.current, .row .post-pagination .wrapper > .m2.older, .post-pagination .row .wrapper > .m2.older, .row .footer .m2.impressum, .footer .row .m2.impressum, .row .footer .m2.text, .footer .row .m2.text {
     width: 16.66667%;
     margin-left: 0;
   }
   /* line 76, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.m3, .row .blog-post > .wrapper .m3.headline, .blog-post > .wrapper .row .m3.headline, .row .blog-post > .wrapper .meta, .blog-post > .wrapper .row .meta, .row .blog-post > .wrapper .m3.content, .blog-post > .wrapper .row .m3.content, .row .post-pagination .wrapper > .m3.newer, .post-pagination .row .wrapper > .m3.newer, .row .post-pagination .wrapper > .m3.current, .post-pagination .row .wrapper > .m3.current, .row .post-pagination .wrapper > .m3.older, .post-pagination .row .wrapper > .m3.older, .row .footer .impressum, .footer .row .impressum, .row .footer .m3.text, .footer .row .m3.text {
+  .row .col.m3, .row .blog-post > .wrapper .m3.headline, .blog-post > .wrapper .row .m3.headline, .row .blog-post > .wrapper .meta, .blog-post > .wrapper .row .meta, .row .blog-post > .wrapper .m3.content, .blog-post > .wrapper .row .m3.content, .row .m3.static-page, .row .post-pagination .wrapper > .m3.newer, .post-pagination .row .wrapper > .m3.newer, .row .post-pagination .wrapper > .m3.current, .post-pagination .row .wrapper > .m3.current, .row .post-pagination .wrapper > .m3.older, .post-pagination .row .wrapper > .m3.older, .row .footer .impressum, .footer .row .impressum, .row .footer .m3.text, .footer .row .m3.text {
     width: 25%;
     margin-left: 0;
   }
   /* line 76, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.m4, .row .blog-post > .wrapper .m4.headline, .blog-post > .wrapper .row .m4.headline, .row .blog-post > .wrapper .m4.meta, .blog-post > .wrapper .row .m4.meta, .row .blog-post > .wrapper .m4.content, .blog-post > .wrapper .row .m4.content, .row .post-pagination .wrapper > .m4.newer, .post-pagination .row .wrapper > .m4.newer, .row .post-pagination .wrapper > .m4.current, .post-pagination .row .wrapper > .m4.current, .row .post-pagination .wrapper > .m4.older, .post-pagination .row .wrapper > .m4.older, .row .footer .m4.impressum, .footer .row .m4.impressum, .row .footer .m4.text, .footer .row .m4.text {
+  .row .col.m4, .row .blog-post > .wrapper .m4.headline, .blog-post > .wrapper .row .m4.headline, .row .blog-post > .wrapper .m4.meta, .blog-post > .wrapper .row .m4.meta, .row .blog-post > .wrapper .m4.content, .blog-post > .wrapper .row .m4.content, .row .m4.static-page, .row .post-pagination .wrapper > .m4.newer, .post-pagination .row .wrapper > .m4.newer, .row .post-pagination .wrapper > .m4.current, .post-pagination .row .wrapper > .m4.current, .row .post-pagination .wrapper > .m4.older, .post-pagination .row .wrapper > .m4.older, .row .footer .m4.impressum, .footer .row .m4.impressum, .row .footer .m4.text, .footer .row .m4.text {
     width: 33.33333%;
     margin-left: 0;
   }
   /* line 76, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.m5, .row .blog-post > .wrapper .m5.headline, .blog-post > .wrapper .row .m5.headline, .row .blog-post > .wrapper .m5.meta, .blog-post > .wrapper .row .m5.meta, .row .blog-post > .wrapper .m5.content, .blog-post > .wrapper .row .m5.content, .row .post-pagination .wrapper > .m5.newer, .post-pagination .row .wrapper > .m5.newer, .row .post-pagination .wrapper > .m5.current, .post-pagination .row .wrapper > .m5.current, .row .post-pagination .wrapper > .m5.older, .post-pagination .row .wrapper > .m5.older, .row .footer .m5.impressum, .footer .row .m5.impressum, .row .footer .m5.text, .footer .row .m5.text {
+  .row .col.m5, .row .blog-post > .wrapper .m5.headline, .blog-post > .wrapper .row .m5.headline, .row .blog-post > .wrapper .m5.meta, .blog-post > .wrapper .row .m5.meta, .row .blog-post > .wrapper .m5.content, .blog-post > .wrapper .row .m5.content, .row .m5.static-page, .row .post-pagination .wrapper > .m5.newer, .post-pagination .row .wrapper > .m5.newer, .row .post-pagination .wrapper > .m5.current, .post-pagination .row .wrapper > .m5.current, .row .post-pagination .wrapper > .m5.older, .post-pagination .row .wrapper > .m5.older, .row .footer .m5.impressum, .footer .row .m5.impressum, .row .footer .m5.text, .footer .row .m5.text {
     width: 41.66667%;
     margin-left: 0;
   }
   /* line 76, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.m6, .row .blog-post > .wrapper .m6.headline, .blog-post > .wrapper .row .m6.headline, .row .blog-post > .wrapper .m6.meta, .blog-post > .wrapper .row .m6.meta, .row .blog-post > .wrapper .m6.content, .blog-post > .wrapper .row .m6.content, .row .post-pagination .wrapper > .m6.newer, .post-pagination .row .wrapper > .m6.newer, .row .post-pagination .wrapper > .m6.current, .post-pagination .row .wrapper > .m6.current, .row .post-pagination .wrapper > .m6.older, .post-pagination .row .wrapper > .m6.older, .row .footer .m6.impressum, .footer .row .m6.impressum, .row .footer .m6.text, .footer .row .m6.text {
+  .row .col.m6, .row .blog-post > .wrapper .m6.headline, .blog-post > .wrapper .row .m6.headline, .row .blog-post > .wrapper .m6.meta, .blog-post > .wrapper .row .m6.meta, .row .blog-post > .wrapper .m6.content, .blog-post > .wrapper .row .m6.content, .row .m6.static-page, .row .post-pagination .wrapper > .m6.newer, .post-pagination .row .wrapper > .m6.newer, .row .post-pagination .wrapper > .m6.current, .post-pagination .row .wrapper > .m6.current, .row .post-pagination .wrapper > .m6.older, .post-pagination .row .wrapper > .m6.older, .row .footer .m6.impressum, .footer .row .m6.impressum, .row .footer .m6.text, .footer .row .m6.text {
     width: 50%;
     margin-left: 0;
   }
   /* line 76, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.m7, .row .blog-post > .wrapper .m7.headline, .blog-post > .wrapper .row .m7.headline, .row .blog-post > .wrapper .m7.meta, .blog-post > .wrapper .row .m7.meta, .row .blog-post > .wrapper .m7.content, .blog-post > .wrapper .row .m7.content, .row .post-pagination .wrapper > .m7.newer, .post-pagination .row .wrapper > .m7.newer, .row .post-pagination .wrapper > .m7.current, .post-pagination .row .wrapper > .m7.current, .row .post-pagination .wrapper > .m7.older, .post-pagination .row .wrapper > .m7.older, .row .footer .m7.impressum, .footer .row .m7.impressum, .row .footer .m7.text, .footer .row .m7.text {
+  .row .col.m7, .row .blog-post > .wrapper .m7.headline, .blog-post > .wrapper .row .m7.headline, .row .blog-post > .wrapper .m7.meta, .blog-post > .wrapper .row .m7.meta, .row .blog-post > .wrapper .m7.content, .blog-post > .wrapper .row .m7.content, .row .m7.static-page, .row .post-pagination .wrapper > .m7.newer, .post-pagination .row .wrapper > .m7.newer, .row .post-pagination .wrapper > .m7.current, .post-pagination .row .wrapper > .m7.current, .row .post-pagination .wrapper > .m7.older, .post-pagination .row .wrapper > .m7.older, .row .footer .m7.impressum, .footer .row .m7.impressum, .row .footer .m7.text, .footer .row .m7.text {
     width: 58.33333%;
     margin-left: 0;
   }
   /* line 76, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.m8, .row .blog-post > .wrapper .m8.headline, .blog-post > .wrapper .row .m8.headline, .row .blog-post > .wrapper .m8.meta, .blog-post > .wrapper .row .m8.meta, .row .blog-post > .wrapper .m8.content, .blog-post > .wrapper .row .m8.content, .row .post-pagination .wrapper > .m8.newer, .post-pagination .row .wrapper > .m8.newer, .row .post-pagination .wrapper > .m8.current, .post-pagination .row .wrapper > .m8.current, .row .post-pagination .wrapper > .m8.older, .post-pagination .row .wrapper > .m8.older, .row .footer .m8.impressum, .footer .row .m8.impressum, .row .footer .m8.text, .footer .row .m8.text {
+  .row .col.m8, .row .blog-post > .wrapper .m8.headline, .blog-post > .wrapper .row .m8.headline, .row .blog-post > .wrapper .m8.meta, .blog-post > .wrapper .row .m8.meta, .row .blog-post > .wrapper .m8.content, .blog-post > .wrapper .row .m8.content, .row .m8.static-page, .row .post-pagination .wrapper > .m8.newer, .post-pagination .row .wrapper > .m8.newer, .row .post-pagination .wrapper > .m8.current, .post-pagination .row .wrapper > .m8.current, .row .post-pagination .wrapper > .m8.older, .post-pagination .row .wrapper > .m8.older, .row .footer .m8.impressum, .footer .row .m8.impressum, .row .footer .m8.text, .footer .row .m8.text {
     width: 66.66667%;
     margin-left: 0;
   }
   /* line 76, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.m9, .row .blog-post > .wrapper .headline, .blog-post > .wrapper .row .headline, .row .blog-post > .wrapper .m9.meta, .blog-post > .wrapper .row .m9.meta, .row .blog-post > .wrapper .content, .blog-post > .wrapper .row .content, .row .post-pagination .wrapper > .m9.newer, .post-pagination .row .wrapper > .m9.newer, .row .post-pagination .wrapper > .m9.current, .post-pagination .row .wrapper > .m9.current, .row .post-pagination .wrapper > .m9.older, .post-pagination .row .wrapper > .m9.older, .row .footer .m9.impressum, .footer .row .m9.impressum, .row .footer .text, .footer .row .text {
+  .row .col.m9, .row .blog-post > .wrapper .headline, .blog-post > .wrapper .row .headline, .row .blog-post > .wrapper .m9.meta, .blog-post > .wrapper .row .m9.meta, .row .blog-post > .wrapper .content, .blog-post > .wrapper .row .content, .row .m9.static-page, .row .post-pagination .wrapper > .m9.newer, .post-pagination .row .wrapper > .m9.newer, .row .post-pagination .wrapper > .m9.current, .post-pagination .row .wrapper > .m9.current, .row .post-pagination .wrapper > .m9.older, .post-pagination .row .wrapper > .m9.older, .row .footer .m9.impressum, .footer .row .m9.impressum, .row .footer .text, .footer .row .text {
     width: 75%;
     margin-left: 0;
   }
   /* line 76, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.m10, .row .blog-post > .wrapper .m10.headline, .blog-post > .wrapper .row .m10.headline, .row .blog-post > .wrapper .m10.meta, .blog-post > .wrapper .row .m10.meta, .row .blog-post > .wrapper .m10.content, .blog-post > .wrapper .row .m10.content, .row .post-pagination .wrapper > .m10.newer, .post-pagination .row .wrapper > .m10.newer, .row .post-pagination .wrapper > .m10.current, .post-pagination .row .wrapper > .m10.current, .row .post-pagination .wrapper > .m10.older, .post-pagination .row .wrapper > .m10.older, .row .footer .m10.impressum, .footer .row .m10.impressum, .row .footer .m10.text, .footer .row .m10.text {
+  .row .col.m10, .row .blog-post > .wrapper .m10.headline, .blog-post > .wrapper .row .m10.headline, .row .blog-post > .wrapper .m10.meta, .blog-post > .wrapper .row .m10.meta, .row .blog-post > .wrapper .m10.content, .blog-post > .wrapper .row .m10.content, .row .m10.static-page, .row .post-pagination .wrapper > .m10.newer, .post-pagination .row .wrapper > .m10.newer, .row .post-pagination .wrapper > .m10.current, .post-pagination .row .wrapper > .m10.current, .row .post-pagination .wrapper > .m10.older, .post-pagination .row .wrapper > .m10.older, .row .footer .m10.impressum, .footer .row .m10.impressum, .row .footer .m10.text, .footer .row .m10.text {
     width: 83.33333%;
     margin-left: 0;
   }
   /* line 76, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.m11, .row .blog-post > .wrapper .m11.headline, .blog-post > .wrapper .row .m11.headline, .row .blog-post > .wrapper .m11.meta, .blog-post > .wrapper .row .m11.meta, .row .blog-post > .wrapper .m11.content, .blog-post > .wrapper .row .m11.content, .row .post-pagination .wrapper > .m11.newer, .post-pagination .row .wrapper > .m11.newer, .row .post-pagination .wrapper > .m11.current, .post-pagination .row .wrapper > .m11.current, .row .post-pagination .wrapper > .m11.older, .post-pagination .row .wrapper > .m11.older, .row .footer .m11.impressum, .footer .row .m11.impressum, .row .footer .m11.text, .footer .row .m11.text {
+  .row .col.m11, .row .blog-post > .wrapper .m11.headline, .blog-post > .wrapper .row .m11.headline, .row .blog-post > .wrapper .m11.meta, .blog-post > .wrapper .row .m11.meta, .row .blog-post > .wrapper .m11.content, .blog-post > .wrapper .row .m11.content, .row .m11.static-page, .row .post-pagination .wrapper > .m11.newer, .post-pagination .row .wrapper > .m11.newer, .row .post-pagination .wrapper > .m11.current, .post-pagination .row .wrapper > .m11.current, .row .post-pagination .wrapper > .m11.older, .post-pagination .row .wrapper > .m11.older, .row .footer .m11.impressum, .footer .row .m11.impressum, .row .footer .m11.text, .footer .row .m11.text {
     width: 91.66667%;
     margin-left: 0;
   }
   /* line 76, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.m12, .row .blog-post > .wrapper .m12.headline, .blog-post > .wrapper .row .m12.headline, .row .blog-post > .wrapper .m12.meta, .blog-post > .wrapper .row .m12.meta, .row .blog-post > .wrapper .m12.content, .blog-post > .wrapper .row .m12.content, .row .post-pagination .wrapper > .m12.newer, .post-pagination .row .wrapper > .m12.newer, .row .post-pagination .wrapper > .m12.current, .post-pagination .row .wrapper > .m12.current, .row .post-pagination .wrapper > .m12.older, .post-pagination .row .wrapper > .m12.older, .row .footer .m12.impressum, .footer .row .m12.impressum, .row .footer .m12.text, .footer .row .m12.text {
+  .row .col.m12, .row .blog-post > .wrapper .m12.headline, .blog-post > .wrapper .row .m12.headline, .row .blog-post > .wrapper .m12.meta, .blog-post > .wrapper .row .m12.meta, .row .blog-post > .wrapper .m12.content, .blog-post > .wrapper .row .m12.content, .row .m12.static-page, .row .post-pagination .wrapper > .m12.newer, .post-pagination .row .wrapper > .m12.newer, .row .post-pagination .wrapper > .m12.current, .post-pagination .row .wrapper > .m12.current, .row .post-pagination .wrapper > .m12.older, .post-pagination .row .wrapper > .m12.older, .row .footer .m12.impressum, .footer .row .m12.impressum, .row .footer .m12.text, .footer .row .m12.text {
     width: 100%;
     margin-left: 0;
   }
   /* line 85, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-m1, .row .blog-post > .wrapper .offset-m1.headline, .blog-post > .wrapper .row .offset-m1.headline, .row .blog-post > .wrapper .offset-m1.meta, .blog-post > .wrapper .row .offset-m1.meta, .row .blog-post > .wrapper .offset-m1.content, .blog-post > .wrapper .row .offset-m1.content, .row .post-pagination .wrapper > .offset-m1.newer, .post-pagination .row .wrapper > .offset-m1.newer, .row .post-pagination .wrapper > .offset-m1.current, .post-pagination .row .wrapper > .offset-m1.current, .row .post-pagination .wrapper > .offset-m1.older, .post-pagination .row .wrapper > .offset-m1.older, .row .footer .offset-m1.impressum, .footer .row .offset-m1.impressum, .row .footer .offset-m1.text, .footer .row .offset-m1.text {
+  .row .col.offset-m1, .row .blog-post > .wrapper .offset-m1.headline, .blog-post > .wrapper .row .offset-m1.headline, .row .blog-post > .wrapper .offset-m1.meta, .blog-post > .wrapper .row .offset-m1.meta, .row .blog-post > .wrapper .offset-m1.content, .blog-post > .wrapper .row .offset-m1.content, .row .offset-m1.static-page, .row .post-pagination .wrapper > .offset-m1.newer, .post-pagination .row .wrapper > .offset-m1.newer, .row .post-pagination .wrapper > .offset-m1.current, .post-pagination .row .wrapper > .offset-m1.current, .row .post-pagination .wrapper > .offset-m1.older, .post-pagination .row .wrapper > .offset-m1.older, .row .footer .offset-m1.impressum, .footer .row .offset-m1.impressum, .row .footer .offset-m1.text, .footer .row .offset-m1.text {
     margin-left: 8.33333%;
   }
   /* line 85, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-m2, .row .blog-post > .wrapper .offset-m2.headline, .blog-post > .wrapper .row .offset-m2.headline, .row .blog-post > .wrapper .offset-m2.meta, .blog-post > .wrapper .row .offset-m2.meta, .row .blog-post > .wrapper .offset-m2.content, .blog-post > .wrapper .row .offset-m2.content, .row .post-pagination .wrapper > .offset-m2.newer, .post-pagination .row .wrapper > .offset-m2.newer, .row .post-pagination .wrapper > .offset-m2.current, .post-pagination .row .wrapper > .offset-m2.current, .row .post-pagination .wrapper > .offset-m2.older, .post-pagination .row .wrapper > .offset-m2.older, .row .footer .offset-m2.impressum, .footer .row .offset-m2.impressum, .row .footer .offset-m2.text, .footer .row .offset-m2.text {
+  .row .col.offset-m2, .row .blog-post > .wrapper .offset-m2.headline, .blog-post > .wrapper .row .offset-m2.headline, .row .blog-post > .wrapper .offset-m2.meta, .blog-post > .wrapper .row .offset-m2.meta, .row .blog-post > .wrapper .offset-m2.content, .blog-post > .wrapper .row .offset-m2.content, .row .offset-m2.static-page, .row .post-pagination .wrapper > .offset-m2.newer, .post-pagination .row .wrapper > .offset-m2.newer, .row .post-pagination .wrapper > .offset-m2.current, .post-pagination .row .wrapper > .offset-m2.current, .row .post-pagination .wrapper > .offset-m2.older, .post-pagination .row .wrapper > .offset-m2.older, .row .footer .offset-m2.impressum, .footer .row .offset-m2.impressum, .row .footer .offset-m2.text, .footer .row .offset-m2.text {
     margin-left: 16.66667%;
   }
   /* line 85, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-m3, .row .blog-post > .wrapper .headline, .blog-post > .wrapper .row .headline, .row .blog-post > .wrapper .offset-m3.meta, .blog-post > .wrapper .row .offset-m3.meta, .row .blog-post > .wrapper .offset-m3.content, .blog-post > .wrapper .row .offset-m3.content, .row .post-pagination .wrapper > .offset-m3.newer, .post-pagination .row .wrapper > .offset-m3.newer, .row .post-pagination .wrapper > .offset-m3.current, .post-pagination .row .wrapper > .offset-m3.current, .row .post-pagination .wrapper > .offset-m3.older, .post-pagination .row .wrapper > .offset-m3.older, .row .footer .offset-m3.impressum, .footer .row .offset-m3.impressum, .row .footer .offset-m3.text, .footer .row .offset-m3.text {
+  .row .col.offset-m3, .row .blog-post > .wrapper .headline, .blog-post > .wrapper .row .headline, .row .blog-post > .wrapper .offset-m3.meta, .blog-post > .wrapper .row .offset-m3.meta, .row .blog-post > .wrapper .offset-m3.content, .blog-post > .wrapper .row .offset-m3.content, .row .offset-m3.static-page, .row .post-pagination .wrapper > .offset-m3.newer, .post-pagination .row .wrapper > .offset-m3.newer, .row .post-pagination .wrapper > .offset-m3.current, .post-pagination .row .wrapper > .offset-m3.current, .row .post-pagination .wrapper > .offset-m3.older, .post-pagination .row .wrapper > .offset-m3.older, .row .footer .offset-m3.impressum, .footer .row .offset-m3.impressum, .row .footer .offset-m3.text, .footer .row .offset-m3.text {
     margin-left: 25%;
   }
   /* line 85, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-m4, .row .blog-post > .wrapper .offset-m4.headline, .blog-post > .wrapper .row .offset-m4.headline, .row .blog-post > .wrapper .offset-m4.meta, .blog-post > .wrapper .row .offset-m4.meta, .row .blog-post > .wrapper .offset-m4.content, .blog-post > .wrapper .row .offset-m4.content, .row .post-pagination .wrapper > .offset-m4.newer, .post-pagination .row .wrapper > .offset-m4.newer, .row .post-pagination .wrapper > .offset-m4.current, .post-pagination .row .wrapper > .offset-m4.current, .row .post-pagination .wrapper > .offset-m4.older, .post-pagination .row .wrapper > .offset-m4.older, .row .footer .offset-m4.impressum, .footer .row .offset-m4.impressum, .row .footer .offset-m4.text, .footer .row .offset-m4.text {
+  .row .col.offset-m4, .row .blog-post > .wrapper .offset-m4.headline, .blog-post > .wrapper .row .offset-m4.headline, .row .blog-post > .wrapper .offset-m4.meta, .blog-post > .wrapper .row .offset-m4.meta, .row .blog-post > .wrapper .offset-m4.content, .blog-post > .wrapper .row .offset-m4.content, .row .offset-m4.static-page, .row .post-pagination .wrapper > .offset-m4.newer, .post-pagination .row .wrapper > .offset-m4.newer, .row .post-pagination .wrapper > .offset-m4.current, .post-pagination .row .wrapper > .offset-m4.current, .row .post-pagination .wrapper > .offset-m4.older, .post-pagination .row .wrapper > .offset-m4.older, .row .footer .offset-m4.impressum, .footer .row .offset-m4.impressum, .row .footer .offset-m4.text, .footer .row .offset-m4.text {
     margin-left: 33.33333%;
   }
   /* line 85, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-m5, .row .blog-post > .wrapper .offset-m5.headline, .blog-post > .wrapper .row .offset-m5.headline, .row .blog-post > .wrapper .offset-m5.meta, .blog-post > .wrapper .row .offset-m5.meta, .row .blog-post > .wrapper .offset-m5.content, .blog-post > .wrapper .row .offset-m5.content, .row .post-pagination .wrapper > .offset-m5.newer, .post-pagination .row .wrapper > .offset-m5.newer, .row .post-pagination .wrapper > .offset-m5.current, .post-pagination .row .wrapper > .offset-m5.current, .row .post-pagination .wrapper > .offset-m5.older, .post-pagination .row .wrapper > .offset-m5.older, .row .footer .offset-m5.impressum, .footer .row .offset-m5.impressum, .row .footer .offset-m5.text, .footer .row .offset-m5.text {
+  .row .col.offset-m5, .row .blog-post > .wrapper .offset-m5.headline, .blog-post > .wrapper .row .offset-m5.headline, .row .blog-post > .wrapper .offset-m5.meta, .blog-post > .wrapper .row .offset-m5.meta, .row .blog-post > .wrapper .offset-m5.content, .blog-post > .wrapper .row .offset-m5.content, .row .offset-m5.static-page, .row .post-pagination .wrapper > .offset-m5.newer, .post-pagination .row .wrapper > .offset-m5.newer, .row .post-pagination .wrapper > .offset-m5.current, .post-pagination .row .wrapper > .offset-m5.current, .row .post-pagination .wrapper > .offset-m5.older, .post-pagination .row .wrapper > .offset-m5.older, .row .footer .offset-m5.impressum, .footer .row .offset-m5.impressum, .row .footer .offset-m5.text, .footer .row .offset-m5.text {
     margin-left: 41.66667%;
   }
   /* line 85, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-m6, .row .blog-post > .wrapper .offset-m6.headline, .blog-post > .wrapper .row .offset-m6.headline, .row .blog-post > .wrapper .offset-m6.meta, .blog-post > .wrapper .row .offset-m6.meta, .row .blog-post > .wrapper .offset-m6.content, .blog-post > .wrapper .row .offset-m6.content, .row .post-pagination .wrapper > .offset-m6.newer, .post-pagination .row .wrapper > .offset-m6.newer, .row .post-pagination .wrapper > .offset-m6.current, .post-pagination .row .wrapper > .offset-m6.current, .row .post-pagination .wrapper > .offset-m6.older, .post-pagination .row .wrapper > .offset-m6.older, .row .footer .offset-m6.impressum, .footer .row .offset-m6.impressum, .row .footer .offset-m6.text, .footer .row .offset-m6.text {
+  .row .col.offset-m6, .row .blog-post > .wrapper .offset-m6.headline, .blog-post > .wrapper .row .offset-m6.headline, .row .blog-post > .wrapper .offset-m6.meta, .blog-post > .wrapper .row .offset-m6.meta, .row .blog-post > .wrapper .offset-m6.content, .blog-post > .wrapper .row .offset-m6.content, .row .offset-m6.static-page, .row .post-pagination .wrapper > .offset-m6.newer, .post-pagination .row .wrapper > .offset-m6.newer, .row .post-pagination .wrapper > .offset-m6.current, .post-pagination .row .wrapper > .offset-m6.current, .row .post-pagination .wrapper > .offset-m6.older, .post-pagination .row .wrapper > .offset-m6.older, .row .footer .offset-m6.impressum, .footer .row .offset-m6.impressum, .row .footer .offset-m6.text, .footer .row .offset-m6.text {
     margin-left: 50%;
   }
   /* line 85, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-m7, .row .blog-post > .wrapper .offset-m7.headline, .blog-post > .wrapper .row .offset-m7.headline, .row .blog-post > .wrapper .offset-m7.meta, .blog-post > .wrapper .row .offset-m7.meta, .row .blog-post > .wrapper .offset-m7.content, .blog-post > .wrapper .row .offset-m7.content, .row .post-pagination .wrapper > .offset-m7.newer, .post-pagination .row .wrapper > .offset-m7.newer, .row .post-pagination .wrapper > .offset-m7.current, .post-pagination .row .wrapper > .offset-m7.current, .row .post-pagination .wrapper > .offset-m7.older, .post-pagination .row .wrapper > .offset-m7.older, .row .footer .offset-m7.impressum, .footer .row .offset-m7.impressum, .row .footer .offset-m7.text, .footer .row .offset-m7.text {
+  .row .col.offset-m7, .row .blog-post > .wrapper .offset-m7.headline, .blog-post > .wrapper .row .offset-m7.headline, .row .blog-post > .wrapper .offset-m7.meta, .blog-post > .wrapper .row .offset-m7.meta, .row .blog-post > .wrapper .offset-m7.content, .blog-post > .wrapper .row .offset-m7.content, .row .offset-m7.static-page, .row .post-pagination .wrapper > .offset-m7.newer, .post-pagination .row .wrapper > .offset-m7.newer, .row .post-pagination .wrapper > .offset-m7.current, .post-pagination .row .wrapper > .offset-m7.current, .row .post-pagination .wrapper > .offset-m7.older, .post-pagination .row .wrapper > .offset-m7.older, .row .footer .offset-m7.impressum, .footer .row .offset-m7.impressum, .row .footer .offset-m7.text, .footer .row .offset-m7.text {
     margin-left: 58.33333%;
   }
   /* line 85, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-m8, .row .blog-post > .wrapper .offset-m8.headline, .blog-post > .wrapper .row .offset-m8.headline, .row .blog-post > .wrapper .offset-m8.meta, .blog-post > .wrapper .row .offset-m8.meta, .row .blog-post > .wrapper .offset-m8.content, .blog-post > .wrapper .row .offset-m8.content, .row .post-pagination .wrapper > .offset-m8.newer, .post-pagination .row .wrapper > .offset-m8.newer, .row .post-pagination .wrapper > .offset-m8.current, .post-pagination .row .wrapper > .offset-m8.current, .row .post-pagination .wrapper > .offset-m8.older, .post-pagination .row .wrapper > .offset-m8.older, .row .footer .offset-m8.impressum, .footer .row .offset-m8.impressum, .row .footer .offset-m8.text, .footer .row .offset-m8.text {
+  .row .col.offset-m8, .row .blog-post > .wrapper .offset-m8.headline, .blog-post > .wrapper .row .offset-m8.headline, .row .blog-post > .wrapper .offset-m8.meta, .blog-post > .wrapper .row .offset-m8.meta, .row .blog-post > .wrapper .offset-m8.content, .blog-post > .wrapper .row .offset-m8.content, .row .offset-m8.static-page, .row .post-pagination .wrapper > .offset-m8.newer, .post-pagination .row .wrapper > .offset-m8.newer, .row .post-pagination .wrapper > .offset-m8.current, .post-pagination .row .wrapper > .offset-m8.current, .row .post-pagination .wrapper > .offset-m8.older, .post-pagination .row .wrapper > .offset-m8.older, .row .footer .offset-m8.impressum, .footer .row .offset-m8.impressum, .row .footer .offset-m8.text, .footer .row .offset-m8.text {
     margin-left: 66.66667%;
   }
   /* line 85, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-m9, .row .blog-post > .wrapper .offset-m9.headline, .blog-post > .wrapper .row .offset-m9.headline, .row .blog-post > .wrapper .offset-m9.meta, .blog-post > .wrapper .row .offset-m9.meta, .row .blog-post > .wrapper .offset-m9.content, .blog-post > .wrapper .row .offset-m9.content, .row .post-pagination .wrapper > .offset-m9.newer, .post-pagination .row .wrapper > .offset-m9.newer, .row .post-pagination .wrapper > .offset-m9.current, .post-pagination .row .wrapper > .offset-m9.current, .row .post-pagination .wrapper > .offset-m9.older, .post-pagination .row .wrapper > .offset-m9.older, .row .footer .offset-m9.impressum, .footer .row .offset-m9.impressum, .row .footer .offset-m9.text, .footer .row .offset-m9.text {
+  .row .col.offset-m9, .row .blog-post > .wrapper .offset-m9.headline, .blog-post > .wrapper .row .offset-m9.headline, .row .blog-post > .wrapper .offset-m9.meta, .blog-post > .wrapper .row .offset-m9.meta, .row .blog-post > .wrapper .offset-m9.content, .blog-post > .wrapper .row .offset-m9.content, .row .offset-m9.static-page, .row .post-pagination .wrapper > .offset-m9.newer, .post-pagination .row .wrapper > .offset-m9.newer, .row .post-pagination .wrapper > .offset-m9.current, .post-pagination .row .wrapper > .offset-m9.current, .row .post-pagination .wrapper > .offset-m9.older, .post-pagination .row .wrapper > .offset-m9.older, .row .footer .offset-m9.impressum, .footer .row .offset-m9.impressum, .row .footer .offset-m9.text, .footer .row .offset-m9.text {
     margin-left: 75%;
   }
   /* line 85, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-m10, .row .blog-post > .wrapper .offset-m10.headline, .blog-post > .wrapper .row .offset-m10.headline, .row .blog-post > .wrapper .offset-m10.meta, .blog-post > .wrapper .row .offset-m10.meta, .row .blog-post > .wrapper .offset-m10.content, .blog-post > .wrapper .row .offset-m10.content, .row .post-pagination .wrapper > .offset-m10.newer, .post-pagination .row .wrapper > .offset-m10.newer, .row .post-pagination .wrapper > .offset-m10.current, .post-pagination .row .wrapper > .offset-m10.current, .row .post-pagination .wrapper > .offset-m10.older, .post-pagination .row .wrapper > .offset-m10.older, .row .footer .offset-m10.impressum, .footer .row .offset-m10.impressum, .row .footer .offset-m10.text, .footer .row .offset-m10.text {
+  .row .col.offset-m10, .row .blog-post > .wrapper .offset-m10.headline, .blog-post > .wrapper .row .offset-m10.headline, .row .blog-post > .wrapper .offset-m10.meta, .blog-post > .wrapper .row .offset-m10.meta, .row .blog-post > .wrapper .offset-m10.content, .blog-post > .wrapper .row .offset-m10.content, .row .offset-m10.static-page, .row .post-pagination .wrapper > .offset-m10.newer, .post-pagination .row .wrapper > .offset-m10.newer, .row .post-pagination .wrapper > .offset-m10.current, .post-pagination .row .wrapper > .offset-m10.current, .row .post-pagination .wrapper > .offset-m10.older, .post-pagination .row .wrapper > .offset-m10.older, .row .footer .offset-m10.impressum, .footer .row .offset-m10.impressum, .row .footer .offset-m10.text, .footer .row .offset-m10.text {
     margin-left: 83.33333%;
   }
   /* line 85, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-m11, .row .blog-post > .wrapper .offset-m11.headline, .blog-post > .wrapper .row .offset-m11.headline, .row .blog-post > .wrapper .offset-m11.meta, .blog-post > .wrapper .row .offset-m11.meta, .row .blog-post > .wrapper .offset-m11.content, .blog-post > .wrapper .row .offset-m11.content, .row .post-pagination .wrapper > .offset-m11.newer, .post-pagination .row .wrapper > .offset-m11.newer, .row .post-pagination .wrapper > .offset-m11.current, .post-pagination .row .wrapper > .offset-m11.current, .row .post-pagination .wrapper > .offset-m11.older, .post-pagination .row .wrapper > .offset-m11.older, .row .footer .offset-m11.impressum, .footer .row .offset-m11.impressum, .row .footer .offset-m11.text, .footer .row .offset-m11.text {
+  .row .col.offset-m11, .row .blog-post > .wrapper .offset-m11.headline, .blog-post > .wrapper .row .offset-m11.headline, .row .blog-post > .wrapper .offset-m11.meta, .blog-post > .wrapper .row .offset-m11.meta, .row .blog-post > .wrapper .offset-m11.content, .blog-post > .wrapper .row .offset-m11.content, .row .offset-m11.static-page, .row .post-pagination .wrapper > .offset-m11.newer, .post-pagination .row .wrapper > .offset-m11.newer, .row .post-pagination .wrapper > .offset-m11.current, .post-pagination .row .wrapper > .offset-m11.current, .row .post-pagination .wrapper > .offset-m11.older, .post-pagination .row .wrapper > .offset-m11.older, .row .footer .offset-m11.impressum, .footer .row .offset-m11.impressum, .row .footer .offset-m11.text, .footer .row .offset-m11.text {
     margin-left: 91.66667%;
   }
   /* line 85, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-m12, .row .blog-post > .wrapper .offset-m12.headline, .blog-post > .wrapper .row .offset-m12.headline, .row .blog-post > .wrapper .offset-m12.meta, .blog-post > .wrapper .row .offset-m12.meta, .row .blog-post > .wrapper .offset-m12.content, .blog-post > .wrapper .row .offset-m12.content, .row .post-pagination .wrapper > .offset-m12.newer, .post-pagination .row .wrapper > .offset-m12.newer, .row .post-pagination .wrapper > .offset-m12.current, .post-pagination .row .wrapper > .offset-m12.current, .row .post-pagination .wrapper > .offset-m12.older, .post-pagination .row .wrapper > .offset-m12.older, .row .footer .offset-m12.impressum, .footer .row .offset-m12.impressum, .row .footer .offset-m12.text, .footer .row .offset-m12.text {
+  .row .col.offset-m12, .row .blog-post > .wrapper .offset-m12.headline, .blog-post > .wrapper .row .offset-m12.headline, .row .blog-post > .wrapper .offset-m12.meta, .blog-post > .wrapper .row .offset-m12.meta, .row .blog-post > .wrapper .offset-m12.content, .blog-post > .wrapper .row .offset-m12.content, .row .offset-m12.static-page, .row .post-pagination .wrapper > .offset-m12.newer, .post-pagination .row .wrapper > .offset-m12.newer, .row .post-pagination .wrapper > .offset-m12.current, .post-pagination .row .wrapper > .offset-m12.current, .row .post-pagination .wrapper > .offset-m12.older, .post-pagination .row .wrapper > .offset-m12.older, .row .footer .offset-m12.impressum, .footer .row .offset-m12.impressum, .row .footer .offset-m12.text, .footer .row .offset-m12.text {
     margin-left: 100%;
   }
 }
 
 @media only screen and (min-width: 768px) {
   /* line 98, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.l1, .row .blog-post > .wrapper .l1.headline, .blog-post > .wrapper .row .l1.headline, .row .blog-post > .wrapper .l1.meta, .blog-post > .wrapper .row .l1.meta, .row .blog-post > .wrapper .l1.content, .blog-post > .wrapper .row .l1.content, .row .post-pagination .wrapper > .l1.newer, .post-pagination .row .wrapper > .l1.newer, .row .post-pagination .wrapper > .l1.current, .post-pagination .row .wrapper > .l1.current, .row .post-pagination .wrapper > .l1.older, .post-pagination .row .wrapper > .l1.older, .row .footer .l1.impressum, .footer .row .l1.impressum, .row .footer .l1.text, .footer .row .l1.text {
+  .row .col.l1, .row .blog-post > .wrapper .l1.headline, .blog-post > .wrapper .row .l1.headline, .row .blog-post > .wrapper .l1.meta, .blog-post > .wrapper .row .l1.meta, .row .blog-post > .wrapper .l1.content, .blog-post > .wrapper .row .l1.content, .row .l1.static-page, .row .post-pagination .wrapper > .l1.newer, .post-pagination .row .wrapper > .l1.newer, .row .post-pagination .wrapper > .l1.current, .post-pagination .row .wrapper > .l1.current, .row .post-pagination .wrapper > .l1.older, .post-pagination .row .wrapper > .l1.older, .row .footer .l1.impressum, .footer .row .l1.impressum, .row .footer .l1.text, .footer .row .l1.text {
     width: 8.33333%;
     margin-left: 0;
   }
   /* line 98, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.l2, .row .blog-post > .wrapper .l2.headline, .blog-post > .wrapper .row .l2.headline, .row .blog-post > .wrapper .l2.meta, .blog-post > .wrapper .row .l2.meta, .row .blog-post > .wrapper .l2.content, .blog-post > .wrapper .row .l2.content, .row .post-pagination .wrapper > .l2.newer, .post-pagination .row .wrapper > .l2.newer, .row .post-pagination .wrapper > .l2.current, .post-pagination .row .wrapper > .l2.current, .row .post-pagination .wrapper > .l2.older, .post-pagination .row .wrapper > .l2.older, .row .footer .l2.impressum, .footer .row .l2.impressum, .row .footer .l2.text, .footer .row .l2.text {
+  .row .col.l2, .row .blog-post > .wrapper .l2.headline, .blog-post > .wrapper .row .l2.headline, .row .blog-post > .wrapper .l2.meta, .blog-post > .wrapper .row .l2.meta, .row .blog-post > .wrapper .l2.content, .blog-post > .wrapper .row .l2.content, .row .l2.static-page, .row .post-pagination .wrapper > .l2.newer, .post-pagination .row .wrapper > .l2.newer, .row .post-pagination .wrapper > .l2.current, .post-pagination .row .wrapper > .l2.current, .row .post-pagination .wrapper > .l2.older, .post-pagination .row .wrapper > .l2.older, .row .footer .l2.impressum, .footer .row .l2.impressum, .row .footer .l2.text, .footer .row .l2.text {
     width: 16.66667%;
     margin-left: 0;
   }
   /* line 98, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.l3, .row .blog-post > .wrapper .l3.headline, .blog-post > .wrapper .row .l3.headline, .row .blog-post > .wrapper .l3.meta, .blog-post > .wrapper .row .l3.meta, .row .blog-post > .wrapper .l3.content, .blog-post > .wrapper .row .l3.content, .row .post-pagination .wrapper > .l3.newer, .post-pagination .row .wrapper > .l3.newer, .row .post-pagination .wrapper > .l3.current, .post-pagination .row .wrapper > .l3.current, .row .post-pagination .wrapper > .l3.older, .post-pagination .row .wrapper > .l3.older, .row .footer .l3.impressum, .footer .row .l3.impressum, .row .footer .l3.text, .footer .row .l3.text {
+  .row .col.l3, .row .blog-post > .wrapper .l3.headline, .blog-post > .wrapper .row .l3.headline, .row .blog-post > .wrapper .l3.meta, .blog-post > .wrapper .row .l3.meta, .row .blog-post > .wrapper .l3.content, .blog-post > .wrapper .row .l3.content, .row .l3.static-page, .row .post-pagination .wrapper > .l3.newer, .post-pagination .row .wrapper > .l3.newer, .row .post-pagination .wrapper > .l3.current, .post-pagination .row .wrapper > .l3.current, .row .post-pagination .wrapper > .l3.older, .post-pagination .row .wrapper > .l3.older, .row .footer .l3.impressum, .footer .row .l3.impressum, .row .footer .l3.text, .footer .row .l3.text {
     width: 25%;
     margin-left: 0;
   }
   /* line 98, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.l4, .row .blog-post > .wrapper .l4.headline, .blog-post > .wrapper .row .l4.headline, .row .blog-post > .wrapper .l4.meta, .blog-post > .wrapper .row .l4.meta, .row .blog-post > .wrapper .l4.content, .blog-post > .wrapper .row .l4.content, .row .post-pagination .wrapper > .l4.newer, .post-pagination .row .wrapper > .l4.newer, .row .post-pagination .wrapper > .l4.current, .post-pagination .row .wrapper > .l4.current, .row .post-pagination .wrapper > .l4.older, .post-pagination .row .wrapper > .l4.older, .row .footer .l4.impressum, .footer .row .l4.impressum, .row .footer .l4.text, .footer .row .l4.text {
+  .row .col.l4, .row .blog-post > .wrapper .l4.headline, .blog-post > .wrapper .row .l4.headline, .row .blog-post > .wrapper .l4.meta, .blog-post > .wrapper .row .l4.meta, .row .blog-post > .wrapper .l4.content, .blog-post > .wrapper .row .l4.content, .row .l4.static-page, .row .post-pagination .wrapper > .l4.newer, .post-pagination .row .wrapper > .l4.newer, .row .post-pagination .wrapper > .l4.current, .post-pagination .row .wrapper > .l4.current, .row .post-pagination .wrapper > .l4.older, .post-pagination .row .wrapper > .l4.older, .row .footer .l4.impressum, .footer .row .l4.impressum, .row .footer .l4.text, .footer .row .l4.text {
     width: 33.33333%;
     margin-left: 0;
   }
   /* line 98, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.l5, .row .blog-post > .wrapper .l5.headline, .blog-post > .wrapper .row .l5.headline, .row .blog-post > .wrapper .l5.meta, .blog-post > .wrapper .row .l5.meta, .row .blog-post > .wrapper .l5.content, .blog-post > .wrapper .row .l5.content, .row .post-pagination .wrapper > .l5.newer, .post-pagination .row .wrapper > .l5.newer, .row .post-pagination .wrapper > .l5.current, .post-pagination .row .wrapper > .l5.current, .row .post-pagination .wrapper > .l5.older, .post-pagination .row .wrapper > .l5.older, .row .footer .l5.impressum, .footer .row .l5.impressum, .row .footer .l5.text, .footer .row .l5.text {
+  .row .col.l5, .row .blog-post > .wrapper .l5.headline, .blog-post > .wrapper .row .l5.headline, .row .blog-post > .wrapper .l5.meta, .blog-post > .wrapper .row .l5.meta, .row .blog-post > .wrapper .l5.content, .blog-post > .wrapper .row .l5.content, .row .l5.static-page, .row .post-pagination .wrapper > .l5.newer, .post-pagination .row .wrapper > .l5.newer, .row .post-pagination .wrapper > .l5.current, .post-pagination .row .wrapper > .l5.current, .row .post-pagination .wrapper > .l5.older, .post-pagination .row .wrapper > .l5.older, .row .footer .l5.impressum, .footer .row .l5.impressum, .row .footer .l5.text, .footer .row .l5.text {
     width: 41.66667%;
     margin-left: 0;
   }
   /* line 98, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.l6, .row .blog-post > .wrapper .l6.headline, .blog-post > .wrapper .row .l6.headline, .row .blog-post > .wrapper .l6.meta, .blog-post > .wrapper .row .l6.meta, .row .blog-post > .wrapper .l6.content, .blog-post > .wrapper .row .l6.content, .row .post-pagination .wrapper > .l6.newer, .post-pagination .row .wrapper > .l6.newer, .row .post-pagination .wrapper > .l6.current, .post-pagination .row .wrapper > .l6.current, .row .post-pagination .wrapper > .l6.older, .post-pagination .row .wrapper > .l6.older, .row .footer .l6.impressum, .footer .row .l6.impressum, .row .footer .l6.text, .footer .row .l6.text {
+  .row .col.l6, .row .blog-post > .wrapper .l6.headline, .blog-post > .wrapper .row .l6.headline, .row .blog-post > .wrapper .l6.meta, .blog-post > .wrapper .row .l6.meta, .row .blog-post > .wrapper .l6.content, .blog-post > .wrapper .row .l6.content, .row .l6.static-page, .row .post-pagination .wrapper > .l6.newer, .post-pagination .row .wrapper > .l6.newer, .row .post-pagination .wrapper > .l6.current, .post-pagination .row .wrapper > .l6.current, .row .post-pagination .wrapper > .l6.older, .post-pagination .row .wrapper > .l6.older, .row .footer .l6.impressum, .footer .row .l6.impressum, .row .footer .l6.text, .footer .row .l6.text {
     width: 50%;
     margin-left: 0;
   }
   /* line 98, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.l7, .row .blog-post > .wrapper .l7.headline, .blog-post > .wrapper .row .l7.headline, .row .blog-post > .wrapper .l7.meta, .blog-post > .wrapper .row .l7.meta, .row .blog-post > .wrapper .l7.content, .blog-post > .wrapper .row .l7.content, .row .post-pagination .wrapper > .l7.newer, .post-pagination .row .wrapper > .l7.newer, .row .post-pagination .wrapper > .l7.current, .post-pagination .row .wrapper > .l7.current, .row .post-pagination .wrapper > .l7.older, .post-pagination .row .wrapper > .l7.older, .row .footer .l7.impressum, .footer .row .l7.impressum, .row .footer .l7.text, .footer .row .l7.text {
+  .row .col.l7, .row .blog-post > .wrapper .l7.headline, .blog-post > .wrapper .row .l7.headline, .row .blog-post > .wrapper .l7.meta, .blog-post > .wrapper .row .l7.meta, .row .blog-post > .wrapper .l7.content, .blog-post > .wrapper .row .l7.content, .row .l7.static-page, .row .post-pagination .wrapper > .l7.newer, .post-pagination .row .wrapper > .l7.newer, .row .post-pagination .wrapper > .l7.current, .post-pagination .row .wrapper > .l7.current, .row .post-pagination .wrapper > .l7.older, .post-pagination .row .wrapper > .l7.older, .row .footer .l7.impressum, .footer .row .l7.impressum, .row .footer .l7.text, .footer .row .l7.text {
     width: 58.33333%;
     margin-left: 0;
   }
   /* line 98, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.l8, .row .blog-post > .wrapper .l8.headline, .blog-post > .wrapper .row .l8.headline, .row .blog-post > .wrapper .l8.meta, .blog-post > .wrapper .row .l8.meta, .row .blog-post > .wrapper .l8.content, .blog-post > .wrapper .row .l8.content, .row .post-pagination .wrapper > .l8.newer, .post-pagination .row .wrapper > .l8.newer, .row .post-pagination .wrapper > .l8.current, .post-pagination .row .wrapper > .l8.current, .row .post-pagination .wrapper > .l8.older, .post-pagination .row .wrapper > .l8.older, .row .footer .l8.impressum, .footer .row .l8.impressum, .row .footer .l8.text, .footer .row .l8.text {
+  .row .col.l8, .row .blog-post > .wrapper .l8.headline, .blog-post > .wrapper .row .l8.headline, .row .blog-post > .wrapper .l8.meta, .blog-post > .wrapper .row .l8.meta, .row .blog-post > .wrapper .l8.content, .blog-post > .wrapper .row .l8.content, .row .l8.static-page, .row .post-pagination .wrapper > .l8.newer, .post-pagination .row .wrapper > .l8.newer, .row .post-pagination .wrapper > .l8.current, .post-pagination .row .wrapper > .l8.current, .row .post-pagination .wrapper > .l8.older, .post-pagination .row .wrapper > .l8.older, .row .footer .l8.impressum, .footer .row .l8.impressum, .row .footer .l8.text, .footer .row .l8.text {
     width: 66.66667%;
     margin-left: 0;
   }
   /* line 98, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.l9, .row .blog-post > .wrapper .l9.headline, .blog-post > .wrapper .row .l9.headline, .row .blog-post > .wrapper .l9.meta, .blog-post > .wrapper .row .l9.meta, .row .blog-post > .wrapper .l9.content, .blog-post > .wrapper .row .l9.content, .row .post-pagination .wrapper > .l9.newer, .post-pagination .row .wrapper > .l9.newer, .row .post-pagination .wrapper > .l9.current, .post-pagination .row .wrapper > .l9.current, .row .post-pagination .wrapper > .l9.older, .post-pagination .row .wrapper > .l9.older, .row .footer .l9.impressum, .footer .row .l9.impressum, .row .footer .l9.text, .footer .row .l9.text {
+  .row .col.l9, .row .blog-post > .wrapper .l9.headline, .blog-post > .wrapper .row .l9.headline, .row .blog-post > .wrapper .l9.meta, .blog-post > .wrapper .row .l9.meta, .row .blog-post > .wrapper .l9.content, .blog-post > .wrapper .row .l9.content, .row .l9.static-page, .row .post-pagination .wrapper > .l9.newer, .post-pagination .row .wrapper > .l9.newer, .row .post-pagination .wrapper > .l9.current, .post-pagination .row .wrapper > .l9.current, .row .post-pagination .wrapper > .l9.older, .post-pagination .row .wrapper > .l9.older, .row .footer .l9.impressum, .footer .row .l9.impressum, .row .footer .l9.text, .footer .row .l9.text {
     width: 75%;
     margin-left: 0;
   }
   /* line 98, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.l10, .row .blog-post > .wrapper .l10.headline, .blog-post > .wrapper .row .l10.headline, .row .blog-post > .wrapper .l10.meta, .blog-post > .wrapper .row .l10.meta, .row .blog-post > .wrapper .l10.content, .blog-post > .wrapper .row .l10.content, .row .post-pagination .wrapper > .l10.newer, .post-pagination .row .wrapper > .l10.newer, .row .post-pagination .wrapper > .l10.current, .post-pagination .row .wrapper > .l10.current, .row .post-pagination .wrapper > .l10.older, .post-pagination .row .wrapper > .l10.older, .row .footer .l10.impressum, .footer .row .l10.impressum, .row .footer .l10.text, .footer .row .l10.text {
+  .row .col.l10, .row .blog-post > .wrapper .l10.headline, .blog-post > .wrapper .row .l10.headline, .row .blog-post > .wrapper .l10.meta, .blog-post > .wrapper .row .l10.meta, .row .blog-post > .wrapper .l10.content, .blog-post > .wrapper .row .l10.content, .row .l10.static-page, .row .post-pagination .wrapper > .l10.newer, .post-pagination .row .wrapper > .l10.newer, .row .post-pagination .wrapper > .l10.current, .post-pagination .row .wrapper > .l10.current, .row .post-pagination .wrapper > .l10.older, .post-pagination .row .wrapper > .l10.older, .row .footer .l10.impressum, .footer .row .l10.impressum, .row .footer .l10.text, .footer .row .l10.text {
     width: 83.33333%;
     margin-left: 0;
   }
   /* line 98, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.l11, .row .blog-post > .wrapper .l11.headline, .blog-post > .wrapper .row .l11.headline, .row .blog-post > .wrapper .l11.meta, .blog-post > .wrapper .row .l11.meta, .row .blog-post > .wrapper .l11.content, .blog-post > .wrapper .row .l11.content, .row .post-pagination .wrapper > .l11.newer, .post-pagination .row .wrapper > .l11.newer, .row .post-pagination .wrapper > .l11.current, .post-pagination .row .wrapper > .l11.current, .row .post-pagination .wrapper > .l11.older, .post-pagination .row .wrapper > .l11.older, .row .footer .l11.impressum, .footer .row .l11.impressum, .row .footer .l11.text, .footer .row .l11.text {
+  .row .col.l11, .row .blog-post > .wrapper .l11.headline, .blog-post > .wrapper .row .l11.headline, .row .blog-post > .wrapper .l11.meta, .blog-post > .wrapper .row .l11.meta, .row .blog-post > .wrapper .l11.content, .blog-post > .wrapper .row .l11.content, .row .l11.static-page, .row .post-pagination .wrapper > .l11.newer, .post-pagination .row .wrapper > .l11.newer, .row .post-pagination .wrapper > .l11.current, .post-pagination .row .wrapper > .l11.current, .row .post-pagination .wrapper > .l11.older, .post-pagination .row .wrapper > .l11.older, .row .footer .l11.impressum, .footer .row .l11.impressum, .row .footer .l11.text, .footer .row .l11.text {
     width: 91.66667%;
     margin-left: 0;
   }
   /* line 98, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.l12, .row .blog-post > .wrapper .l12.headline, .blog-post > .wrapper .row .l12.headline, .row .blog-post > .wrapper .l12.meta, .blog-post > .wrapper .row .l12.meta, .row .blog-post > .wrapper .l12.content, .blog-post > .wrapper .row .l12.content, .row .post-pagination .wrapper > .l12.newer, .post-pagination .row .wrapper > .l12.newer, .row .post-pagination .wrapper > .l12.current, .post-pagination .row .wrapper > .l12.current, .row .post-pagination .wrapper > .l12.older, .post-pagination .row .wrapper > .l12.older, .row .footer .l12.impressum, .footer .row .l12.impressum, .row .footer .l12.text, .footer .row .l12.text {
+  .row .col.l12, .row .blog-post > .wrapper .l12.headline, .blog-post > .wrapper .row .l12.headline, .row .blog-post > .wrapper .l12.meta, .blog-post > .wrapper .row .l12.meta, .row .blog-post > .wrapper .l12.content, .blog-post > .wrapper .row .l12.content, .row .l12.static-page, .row .post-pagination .wrapper > .l12.newer, .post-pagination .row .wrapper > .l12.newer, .row .post-pagination .wrapper > .l12.current, .post-pagination .row .wrapper > .l12.current, .row .post-pagination .wrapper > .l12.older, .post-pagination .row .wrapper > .l12.older, .row .footer .l12.impressum, .footer .row .l12.impressum, .row .footer .l12.text, .footer .row .l12.text {
     width: 100%;
     margin-left: 0;
   }
   /* line 107, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-l1, .row .blog-post > .wrapper .offset-l1.headline, .blog-post > .wrapper .row .offset-l1.headline, .row .blog-post > .wrapper .offset-l1.meta, .blog-post > .wrapper .row .offset-l1.meta, .row .blog-post > .wrapper .offset-l1.content, .blog-post > .wrapper .row .offset-l1.content, .row .post-pagination .wrapper > .offset-l1.newer, .post-pagination .row .wrapper > .offset-l1.newer, .row .post-pagination .wrapper > .offset-l1.current, .post-pagination .row .wrapper > .offset-l1.current, .row .post-pagination .wrapper > .offset-l1.older, .post-pagination .row .wrapper > .offset-l1.older, .row .footer .offset-l1.impressum, .footer .row .offset-l1.impressum, .row .footer .offset-l1.text, .footer .row .offset-l1.text {
+  .row .col.offset-l1, .row .blog-post > .wrapper .offset-l1.headline, .blog-post > .wrapper .row .offset-l1.headline, .row .blog-post > .wrapper .offset-l1.meta, .blog-post > .wrapper .row .offset-l1.meta, .row .blog-post > .wrapper .offset-l1.content, .blog-post > .wrapper .row .offset-l1.content, .row .offset-l1.static-page, .row .post-pagination .wrapper > .offset-l1.newer, .post-pagination .row .wrapper > .offset-l1.newer, .row .post-pagination .wrapper > .offset-l1.current, .post-pagination .row .wrapper > .offset-l1.current, .row .post-pagination .wrapper > .offset-l1.older, .post-pagination .row .wrapper > .offset-l1.older, .row .footer .offset-l1.impressum, .footer .row .offset-l1.impressum, .row .footer .offset-l1.text, .footer .row .offset-l1.text {
     margin-left: 8.33333%;
   }
   /* line 107, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-l2, .row .blog-post > .wrapper .offset-l2.headline, .blog-post > .wrapper .row .offset-l2.headline, .row .blog-post > .wrapper .offset-l2.meta, .blog-post > .wrapper .row .offset-l2.meta, .row .blog-post > .wrapper .offset-l2.content, .blog-post > .wrapper .row .offset-l2.content, .row .post-pagination .wrapper > .offset-l2.newer, .post-pagination .row .wrapper > .offset-l2.newer, .row .post-pagination .wrapper > .offset-l2.current, .post-pagination .row .wrapper > .offset-l2.current, .row .post-pagination .wrapper > .offset-l2.older, .post-pagination .row .wrapper > .offset-l2.older, .row .footer .offset-l2.impressum, .footer .row .offset-l2.impressum, .row .footer .offset-l2.text, .footer .row .offset-l2.text {
+  .row .col.offset-l2, .row .blog-post > .wrapper .offset-l2.headline, .blog-post > .wrapper .row .offset-l2.headline, .row .blog-post > .wrapper .offset-l2.meta, .blog-post > .wrapper .row .offset-l2.meta, .row .blog-post > .wrapper .offset-l2.content, .blog-post > .wrapper .row .offset-l2.content, .row .offset-l2.static-page, .row .post-pagination .wrapper > .offset-l2.newer, .post-pagination .row .wrapper > .offset-l2.newer, .row .post-pagination .wrapper > .offset-l2.current, .post-pagination .row .wrapper > .offset-l2.current, .row .post-pagination .wrapper > .offset-l2.older, .post-pagination .row .wrapper > .offset-l2.older, .row .footer .offset-l2.impressum, .footer .row .offset-l2.impressum, .row .footer .offset-l2.text, .footer .row .offset-l2.text {
     margin-left: 16.66667%;
   }
   /* line 107, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-l3, .row .blog-post > .wrapper .offset-l3.headline, .blog-post > .wrapper .row .offset-l3.headline, .row .blog-post > .wrapper .offset-l3.meta, .blog-post > .wrapper .row .offset-l3.meta, .row .blog-post > .wrapper .offset-l3.content, .blog-post > .wrapper .row .offset-l3.content, .row .post-pagination .wrapper > .offset-l3.newer, .post-pagination .row .wrapper > .offset-l3.newer, .row .post-pagination .wrapper > .offset-l3.current, .post-pagination .row .wrapper > .offset-l3.current, .row .post-pagination .wrapper > .offset-l3.older, .post-pagination .row .wrapper > .offset-l3.older, .row .footer .offset-l3.impressum, .footer .row .offset-l3.impressum, .row .footer .offset-l3.text, .footer .row .offset-l3.text {
+  .row .col.offset-l3, .row .blog-post > .wrapper .offset-l3.headline, .blog-post > .wrapper .row .offset-l3.headline, .row .blog-post > .wrapper .offset-l3.meta, .blog-post > .wrapper .row .offset-l3.meta, .row .blog-post > .wrapper .offset-l3.content, .blog-post > .wrapper .row .offset-l3.content, .row .offset-l3.static-page, .row .post-pagination .wrapper > .offset-l3.newer, .post-pagination .row .wrapper > .offset-l3.newer, .row .post-pagination .wrapper > .offset-l3.current, .post-pagination .row .wrapper > .offset-l3.current, .row .post-pagination .wrapper > .offset-l3.older, .post-pagination .row .wrapper > .offset-l3.older, .row .footer .offset-l3.impressum, .footer .row .offset-l3.impressum, .row .footer .offset-l3.text, .footer .row .offset-l3.text {
     margin-left: 25%;
   }
   /* line 107, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-l4, .row .blog-post > .wrapper .offset-l4.headline, .blog-post > .wrapper .row .offset-l4.headline, .row .blog-post > .wrapper .offset-l4.meta, .blog-post > .wrapper .row .offset-l4.meta, .row .blog-post > .wrapper .offset-l4.content, .blog-post > .wrapper .row .offset-l4.content, .row .post-pagination .wrapper > .offset-l4.newer, .post-pagination .row .wrapper > .offset-l4.newer, .row .post-pagination .wrapper > .offset-l4.current, .post-pagination .row .wrapper > .offset-l4.current, .row .post-pagination .wrapper > .offset-l4.older, .post-pagination .row .wrapper > .offset-l4.older, .row .footer .offset-l4.impressum, .footer .row .offset-l4.impressum, .row .footer .offset-l4.text, .footer .row .offset-l4.text {
+  .row .col.offset-l4, .row .blog-post > .wrapper .offset-l4.headline, .blog-post > .wrapper .row .offset-l4.headline, .row .blog-post > .wrapper .offset-l4.meta, .blog-post > .wrapper .row .offset-l4.meta, .row .blog-post > .wrapper .offset-l4.content, .blog-post > .wrapper .row .offset-l4.content, .row .offset-l4.static-page, .row .post-pagination .wrapper > .offset-l4.newer, .post-pagination .row .wrapper > .offset-l4.newer, .row .post-pagination .wrapper > .offset-l4.current, .post-pagination .row .wrapper > .offset-l4.current, .row .post-pagination .wrapper > .offset-l4.older, .post-pagination .row .wrapper > .offset-l4.older, .row .footer .offset-l4.impressum, .footer .row .offset-l4.impressum, .row .footer .offset-l4.text, .footer .row .offset-l4.text {
     margin-left: 33.33333%;
   }
   /* line 107, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-l5, .row .blog-post > .wrapper .offset-l5.headline, .blog-post > .wrapper .row .offset-l5.headline, .row .blog-post > .wrapper .offset-l5.meta, .blog-post > .wrapper .row .offset-l5.meta, .row .blog-post > .wrapper .offset-l5.content, .blog-post > .wrapper .row .offset-l5.content, .row .post-pagination .wrapper > .offset-l5.newer, .post-pagination .row .wrapper > .offset-l5.newer, .row .post-pagination .wrapper > .offset-l5.current, .post-pagination .row .wrapper > .offset-l5.current, .row .post-pagination .wrapper > .offset-l5.older, .post-pagination .row .wrapper > .offset-l5.older, .row .footer .offset-l5.impressum, .footer .row .offset-l5.impressum, .row .footer .offset-l5.text, .footer .row .offset-l5.text {
+  .row .col.offset-l5, .row .blog-post > .wrapper .offset-l5.headline, .blog-post > .wrapper .row .offset-l5.headline, .row .blog-post > .wrapper .offset-l5.meta, .blog-post > .wrapper .row .offset-l5.meta, .row .blog-post > .wrapper .offset-l5.content, .blog-post > .wrapper .row .offset-l5.content, .row .offset-l5.static-page, .row .post-pagination .wrapper > .offset-l5.newer, .post-pagination .row .wrapper > .offset-l5.newer, .row .post-pagination .wrapper > .offset-l5.current, .post-pagination .row .wrapper > .offset-l5.current, .row .post-pagination .wrapper > .offset-l5.older, .post-pagination .row .wrapper > .offset-l5.older, .row .footer .offset-l5.impressum, .footer .row .offset-l5.impressum, .row .footer .offset-l5.text, .footer .row .offset-l5.text {
     margin-left: 41.66667%;
   }
   /* line 107, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-l6, .row .blog-post > .wrapper .offset-l6.headline, .blog-post > .wrapper .row .offset-l6.headline, .row .blog-post > .wrapper .offset-l6.meta, .blog-post > .wrapper .row .offset-l6.meta, .row .blog-post > .wrapper .offset-l6.content, .blog-post > .wrapper .row .offset-l6.content, .row .post-pagination .wrapper > .offset-l6.newer, .post-pagination .row .wrapper > .offset-l6.newer, .row .post-pagination .wrapper > .offset-l6.current, .post-pagination .row .wrapper > .offset-l6.current, .row .post-pagination .wrapper > .offset-l6.older, .post-pagination .row .wrapper > .offset-l6.older, .row .footer .offset-l6.impressum, .footer .row .offset-l6.impressum, .row .footer .offset-l6.text, .footer .row .offset-l6.text {
+  .row .col.offset-l6, .row .blog-post > .wrapper .offset-l6.headline, .blog-post > .wrapper .row .offset-l6.headline, .row .blog-post > .wrapper .offset-l6.meta, .blog-post > .wrapper .row .offset-l6.meta, .row .blog-post > .wrapper .offset-l6.content, .blog-post > .wrapper .row .offset-l6.content, .row .offset-l6.static-page, .row .post-pagination .wrapper > .offset-l6.newer, .post-pagination .row .wrapper > .offset-l6.newer, .row .post-pagination .wrapper > .offset-l6.current, .post-pagination .row .wrapper > .offset-l6.current, .row .post-pagination .wrapper > .offset-l6.older, .post-pagination .row .wrapper > .offset-l6.older, .row .footer .offset-l6.impressum, .footer .row .offset-l6.impressum, .row .footer .offset-l6.text, .footer .row .offset-l6.text {
     margin-left: 50%;
   }
   /* line 107, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-l7, .row .blog-post > .wrapper .offset-l7.headline, .blog-post > .wrapper .row .offset-l7.headline, .row .blog-post > .wrapper .offset-l7.meta, .blog-post > .wrapper .row .offset-l7.meta, .row .blog-post > .wrapper .offset-l7.content, .blog-post > .wrapper .row .offset-l7.content, .row .post-pagination .wrapper > .offset-l7.newer, .post-pagination .row .wrapper > .offset-l7.newer, .row .post-pagination .wrapper > .offset-l7.current, .post-pagination .row .wrapper > .offset-l7.current, .row .post-pagination .wrapper > .offset-l7.older, .post-pagination .row .wrapper > .offset-l7.older, .row .footer .offset-l7.impressum, .footer .row .offset-l7.impressum, .row .footer .offset-l7.text, .footer .row .offset-l7.text {
+  .row .col.offset-l7, .row .blog-post > .wrapper .offset-l7.headline, .blog-post > .wrapper .row .offset-l7.headline, .row .blog-post > .wrapper .offset-l7.meta, .blog-post > .wrapper .row .offset-l7.meta, .row .blog-post > .wrapper .offset-l7.content, .blog-post > .wrapper .row .offset-l7.content, .row .offset-l7.static-page, .row .post-pagination .wrapper > .offset-l7.newer, .post-pagination .row .wrapper > .offset-l7.newer, .row .post-pagination .wrapper > .offset-l7.current, .post-pagination .row .wrapper > .offset-l7.current, .row .post-pagination .wrapper > .offset-l7.older, .post-pagination .row .wrapper > .offset-l7.older, .row .footer .offset-l7.impressum, .footer .row .offset-l7.impressum, .row .footer .offset-l7.text, .footer .row .offset-l7.text {
     margin-left: 58.33333%;
   }
   /* line 107, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-l8, .row .blog-post > .wrapper .offset-l8.headline, .blog-post > .wrapper .row .offset-l8.headline, .row .blog-post > .wrapper .offset-l8.meta, .blog-post > .wrapper .row .offset-l8.meta, .row .blog-post > .wrapper .offset-l8.content, .blog-post > .wrapper .row .offset-l8.content, .row .post-pagination .wrapper > .offset-l8.newer, .post-pagination .row .wrapper > .offset-l8.newer, .row .post-pagination .wrapper > .offset-l8.current, .post-pagination .row .wrapper > .offset-l8.current, .row .post-pagination .wrapper > .offset-l8.older, .post-pagination .row .wrapper > .offset-l8.older, .row .footer .offset-l8.impressum, .footer .row .offset-l8.impressum, .row .footer .offset-l8.text, .footer .row .offset-l8.text {
+  .row .col.offset-l8, .row .blog-post > .wrapper .offset-l8.headline, .blog-post > .wrapper .row .offset-l8.headline, .row .blog-post > .wrapper .offset-l8.meta, .blog-post > .wrapper .row .offset-l8.meta, .row .blog-post > .wrapper .offset-l8.content, .blog-post > .wrapper .row .offset-l8.content, .row .offset-l8.static-page, .row .post-pagination .wrapper > .offset-l8.newer, .post-pagination .row .wrapper > .offset-l8.newer, .row .post-pagination .wrapper > .offset-l8.current, .post-pagination .row .wrapper > .offset-l8.current, .row .post-pagination .wrapper > .offset-l8.older, .post-pagination .row .wrapper > .offset-l8.older, .row .footer .offset-l8.impressum, .footer .row .offset-l8.impressum, .row .footer .offset-l8.text, .footer .row .offset-l8.text {
     margin-left: 66.66667%;
   }
   /* line 107, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-l9, .row .blog-post > .wrapper .offset-l9.headline, .blog-post > .wrapper .row .offset-l9.headline, .row .blog-post > .wrapper .offset-l9.meta, .blog-post > .wrapper .row .offset-l9.meta, .row .blog-post > .wrapper .offset-l9.content, .blog-post > .wrapper .row .offset-l9.content, .row .post-pagination .wrapper > .offset-l9.newer, .post-pagination .row .wrapper > .offset-l9.newer, .row .post-pagination .wrapper > .offset-l9.current, .post-pagination .row .wrapper > .offset-l9.current, .row .post-pagination .wrapper > .offset-l9.older, .post-pagination .row .wrapper > .offset-l9.older, .row .footer .offset-l9.impressum, .footer .row .offset-l9.impressum, .row .footer .offset-l9.text, .footer .row .offset-l9.text {
+  .row .col.offset-l9, .row .blog-post > .wrapper .offset-l9.headline, .blog-post > .wrapper .row .offset-l9.headline, .row .blog-post > .wrapper .offset-l9.meta, .blog-post > .wrapper .row .offset-l9.meta, .row .blog-post > .wrapper .offset-l9.content, .blog-post > .wrapper .row .offset-l9.content, .row .offset-l9.static-page, .row .post-pagination .wrapper > .offset-l9.newer, .post-pagination .row .wrapper > .offset-l9.newer, .row .post-pagination .wrapper > .offset-l9.current, .post-pagination .row .wrapper > .offset-l9.current, .row .post-pagination .wrapper > .offset-l9.older, .post-pagination .row .wrapper > .offset-l9.older, .row .footer .offset-l9.impressum, .footer .row .offset-l9.impressum, .row .footer .offset-l9.text, .footer .row .offset-l9.text {
     margin-left: 75%;
   }
   /* line 107, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-l10, .row .blog-post > .wrapper .offset-l10.headline, .blog-post > .wrapper .row .offset-l10.headline, .row .blog-post > .wrapper .offset-l10.meta, .blog-post > .wrapper .row .offset-l10.meta, .row .blog-post > .wrapper .offset-l10.content, .blog-post > .wrapper .row .offset-l10.content, .row .post-pagination .wrapper > .offset-l10.newer, .post-pagination .row .wrapper > .offset-l10.newer, .row .post-pagination .wrapper > .offset-l10.current, .post-pagination .row .wrapper > .offset-l10.current, .row .post-pagination .wrapper > .offset-l10.older, .post-pagination .row .wrapper > .offset-l10.older, .row .footer .offset-l10.impressum, .footer .row .offset-l10.impressum, .row .footer .offset-l10.text, .footer .row .offset-l10.text {
+  .row .col.offset-l10, .row .blog-post > .wrapper .offset-l10.headline, .blog-post > .wrapper .row .offset-l10.headline, .row .blog-post > .wrapper .offset-l10.meta, .blog-post > .wrapper .row .offset-l10.meta, .row .blog-post > .wrapper .offset-l10.content, .blog-post > .wrapper .row .offset-l10.content, .row .offset-l10.static-page, .row .post-pagination .wrapper > .offset-l10.newer, .post-pagination .row .wrapper > .offset-l10.newer, .row .post-pagination .wrapper > .offset-l10.current, .post-pagination .row .wrapper > .offset-l10.current, .row .post-pagination .wrapper > .offset-l10.older, .post-pagination .row .wrapper > .offset-l10.older, .row .footer .offset-l10.impressum, .footer .row .offset-l10.impressum, .row .footer .offset-l10.text, .footer .row .offset-l10.text {
     margin-left: 83.33333%;
   }
   /* line 107, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-l11, .row .blog-post > .wrapper .offset-l11.headline, .blog-post > .wrapper .row .offset-l11.headline, .row .blog-post > .wrapper .offset-l11.meta, .blog-post > .wrapper .row .offset-l11.meta, .row .blog-post > .wrapper .offset-l11.content, .blog-post > .wrapper .row .offset-l11.content, .row .post-pagination .wrapper > .offset-l11.newer, .post-pagination .row .wrapper > .offset-l11.newer, .row .post-pagination .wrapper > .offset-l11.current, .post-pagination .row .wrapper > .offset-l11.current, .row .post-pagination .wrapper > .offset-l11.older, .post-pagination .row .wrapper > .offset-l11.older, .row .footer .offset-l11.impressum, .footer .row .offset-l11.impressum, .row .footer .offset-l11.text, .footer .row .offset-l11.text {
+  .row .col.offset-l11, .row .blog-post > .wrapper .offset-l11.headline, .blog-post > .wrapper .row .offset-l11.headline, .row .blog-post > .wrapper .offset-l11.meta, .blog-post > .wrapper .row .offset-l11.meta, .row .blog-post > .wrapper .offset-l11.content, .blog-post > .wrapper .row .offset-l11.content, .row .offset-l11.static-page, .row .post-pagination .wrapper > .offset-l11.newer, .post-pagination .row .wrapper > .offset-l11.newer, .row .post-pagination .wrapper > .offset-l11.current, .post-pagination .row .wrapper > .offset-l11.current, .row .post-pagination .wrapper > .offset-l11.older, .post-pagination .row .wrapper > .offset-l11.older, .row .footer .offset-l11.impressum, .footer .row .offset-l11.impressum, .row .footer .offset-l11.text, .footer .row .offset-l11.text {
     margin-left: 91.66667%;
   }
   /* line 107, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .row .col.offset-l12, .row .blog-post > .wrapper .offset-l12.headline, .blog-post > .wrapper .row .offset-l12.headline, .row .blog-post > .wrapper .offset-l12.meta, .blog-post > .wrapper .row .offset-l12.meta, .row .blog-post > .wrapper .offset-l12.content, .blog-post > .wrapper .row .offset-l12.content, .row .post-pagination .wrapper > .offset-l12.newer, .post-pagination .row .wrapper > .offset-l12.newer, .row .post-pagination .wrapper > .offset-l12.current, .post-pagination .row .wrapper > .offset-l12.current, .row .post-pagination .wrapper > .offset-l12.older, .post-pagination .row .wrapper > .offset-l12.older, .row .footer .offset-l12.impressum, .footer .row .offset-l12.impressum, .row .footer .offset-l12.text, .footer .row .offset-l12.text {
+  .row .col.offset-l12, .row .blog-post > .wrapper .offset-l12.headline, .blog-post > .wrapper .row .offset-l12.headline, .row .blog-post > .wrapper .offset-l12.meta, .blog-post > .wrapper .row .offset-l12.meta, .row .blog-post > .wrapper .offset-l12.content, .blog-post > .wrapper .row .offset-l12.content, .row .offset-l12.static-page, .row .post-pagination .wrapper > .offset-l12.newer, .post-pagination .row .wrapper > .offset-l12.newer, .row .post-pagination .wrapper > .offset-l12.current, .post-pagination .row .wrapper > .offset-l12.current, .row .post-pagination .wrapper > .offset-l12.older, .post-pagination .row .wrapper > .offset-l12.older, .row .footer .offset-l12.impressum, .footer .row .offset-l12.impressum, .row .footer .offset-l12.text, .footer .row .offset-l12.text {
     margin-left: 100%;
   }
 }
@@ -7689,30 +7689,30 @@ $screen-lg:                  1200px !default;
 }
 
 /* line 1, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/elements/_col.scss */
-.col, .blog-post > .wrapper .headline, .blog-post > .wrapper .meta, .blog-post > .wrapper .content, .post-pagination .wrapper > .newer, .post-pagination .wrapper > .current, .post-pagination .wrapper > .older, .footer .impressum, .footer .text {
+.col, .blog-post > .wrapper .headline, .blog-post > .wrapper .meta, .blog-post > .wrapper .content, .static-page, .post-pagination .wrapper > .newer, .post-pagination .wrapper > .current, .post-pagination .wrapper > .older, .post-pagination.-simple .wrapper > .newer, .post-pagination.-simple .wrapper > .older, .footer .impressum, .footer .text {
   padding: 0 5px;
   float: left;
   box-sizing: border-box;
 }
 
 /* line 6, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/elements/_col.scss */
-.col.-collapse, .blog-post > .wrapper .-collapse.headline, .blog-post > .wrapper .-collapse.meta, .blog-post > .wrapper .-collapse.content, .post-pagination .wrapper > .-collapse.newer, .post-pagination .wrapper > .-collapse.current, .post-pagination .wrapper > .-collapse.older, .footer .-collapse.impressum, .footer .-collapse.text {
+.col.-collapse, .blog-post > .wrapper .-collapse.headline, .blog-post > .wrapper .-collapse.meta, .blog-post > .wrapper .-collapse.content, .-collapse.static-page, .post-pagination .wrapper > .-collapse.newer, .post-pagination .wrapper > .-collapse.current, .post-pagination .wrapper > .-collapse.older, .footer .-collapse.impressum, .footer .-collapse.text {
   padding: 0;
 }
 
 /* line 10, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/elements/_col.scss */
-.col.-right, .blog-post > .wrapper .-right.headline, .blog-post > .wrapper .-right.meta, .blog-post > .wrapper .-right.content, .post-pagination .wrapper > .-right.newer, .post-pagination .wrapper > .-right.current, .post-pagination .wrapper > .-right.older, .footer .-right.impressum, .footer .-right.text {
+.col.-right, .blog-post > .wrapper .-right.headline, .blog-post > .wrapper .-right.meta, .blog-post > .wrapper .-right.content, .-right.static-page, .post-pagination .wrapper > .-right.newer, .post-pagination .wrapper > .-right.current, .post-pagination .wrapper > .-right.older, .footer .-right.impressum, .footer .-right.text {
   float: right;
 }
 
 /* line 14, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/elements/_col.scss */
-.col.-centered, .blog-post > .wrapper .-centered.headline, .blog-post > .wrapper .-centered.meta, .blog-post > .wrapper .-centered.content, .post-pagination .wrapper > .-centered.newer, .post-pagination .wrapper > .-centered.current, .post-pagination .wrapper > .-centered.older, .footer .-centered.impressum, .footer .-centered.text {
+.col.-centered, .blog-post > .wrapper .-centered.headline, .blog-post > .wrapper .-centered.meta, .blog-post > .wrapper .-centered.content, .-centered.static-page, .post-pagination .wrapper > .-centered.newer, .post-pagination .wrapper > .-centered.current, .post-pagination .wrapper > .-centered.older, .footer .-centered.impressum, .footer .-centered.text {
   margin: 0 auto;
   float: none;
 }
 
 /* line 19, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/elements/_col.scss */
-.col.-va, .blog-post > .wrapper .-va.headline, .blog-post > .wrapper .-va.meta, .blog-post > .wrapper .-va.content, .post-pagination .wrapper > .-va.newer, .post-pagination .wrapper > .-va.current, .post-pagination .wrapper > .-va.older, .footer .-va.impressum, .footer .-va.text {
+.col.-va, .blog-post > .wrapper .-va.headline, .blog-post > .wrapper .-va.meta, .blog-post > .wrapper .-va.content, .-va.static-page, .post-pagination .wrapper > .-va.newer, .post-pagination .wrapper > .-va.current, .post-pagination .wrapper > .-va.older, .footer .-va.impressum, .footer .-va.text {
   display: inline-block;
   margin-right: -4px;
   vertical-align: middle;
@@ -7905,6 +7905,16 @@ $screen-lg:                  1200px !default;
   width: 1em;
   height: 1em;
   fill: currentColor;
+}
+
+/* line 1, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/elements/_code.scss */
+.code, .blog-post > .wrapper .content code {
+  border: 1px solid #d5d5d5;
+  border-radius: 2px;
+  background-color: #fcfcfc;
+  padding: 0 5px;
+  margin: 0;
+  color: #ae3f3f;
 }
 
 /* line 1, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_item-list.scss */
@@ -8160,35 +8170,35 @@ $screen-lg:                  1200px !default;
   display: block;
 }
 
-/* line 67, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
-.blog-post > .wrapper .content p {
-  line-height: 33px;
+/* line 62, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+.blog-post > .wrapper .content {
   font-size: 20px;
+  line-height: 33px;
   color: #545454;
 }
 
-/* line 73, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+/* line 75, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
 .blog-post > .wrapper .content img {
   width: 100%;
   height: auto;
 }
 
-/* line 78, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+/* line 80, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
 .blog-post > .wrapper .content > p:first-of-type {
   margin-top: -8px;
 }
 
-/* line 82, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+/* line 84, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
 .blog-post > .wrapper .content > p:last-of-type {
   margin-bottom: 0;
 }
 
-/* line 90, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+/* line 92, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
 .blog-post.-image {
   margin-top: 60px;
 }
 
-/* line 93, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+/* line 95, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
 .blog-post.-image:after {
   content: '';
   display: block;
@@ -8198,7 +8208,7 @@ $screen-lg:                  1200px !default;
 }
 
 @media (max-width: 480px) {
-  /* line 90, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+  /* line 92, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
   .blog-post.-image {
     margin-top: 0;
     /*&:after {
@@ -8207,7 +8217,7 @@ $screen-lg:                  1200px !default;
   }
 }
 
-/* line 109, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+/* line 111, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
 .blog-post.-image > .wrapper {
   width: 100%;
   max-width: 1020px;
@@ -8216,13 +8226,13 @@ $screen-lg:                  1200px !default;
   padding: 0;
 }
 
-/* line 118, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+/* line 120, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
 .blog-post.-image > .wrapper > .media {
   height: auto;
   width: 100%;
 }
 
-/* line 123, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+/* line 125, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
 .blog-post.-image > .wrapper > .enlarge {
   position: absolute;
   top: 10px;
@@ -8232,12 +8242,12 @@ $screen-lg:                  1200px !default;
   outline: none;
 }
 
-/* line 132, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+/* line 134, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
 .blog-post.-image > .wrapper > .enlarge .icon {
   fill: #FFF;
 }
 
-/* line 138, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+/* line 140, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
 .blog-post.-image > .wrapper > .overlay {
   position: absolute;
   width: 100%;
@@ -8253,7 +8263,7 @@ $screen-lg:                  1200px !default;
 }
 
 @media (max-width: 480px) {
-  /* line 138, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+  /* line 140, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
   .blog-post.-image > .wrapper > .overlay {
     position: relative;
     background-color: transparent;
@@ -8261,7 +8271,7 @@ $screen-lg:                  1200px !default;
   }
 }
 
-/* line 157, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+/* line 159, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
 .blog-post.-image > .wrapper > .overlay > .headline {
   font-size: 20px;
   margin-top: 0;
@@ -8272,13 +8282,13 @@ $screen-lg:                  1200px !default;
 }
 
 @media (max-width: 480px) {
-  /* line 157, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+  /* line 159, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
   .blog-post.-image > .wrapper > .overlay > .headline {
     color: #545454;
   }
 }
 
-/* line 170, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+/* line 172, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
 .blog-post.-image > .wrapper > .overlay > .meta {
   *zoom: 1;
   display: block;
@@ -8299,7 +8309,7 @@ $screen-lg:                  1200px !default;
   clear: both;
 }
 
-/* line 178, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+/* line 180, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
 .blog-post.-image > .wrapper > .overlay > .meta .icon {
   float: left;
   margin-right: 7px;
@@ -8307,39 +8317,39 @@ $screen-lg:                  1200px !default;
 }
 
 @media (max-width: 480px) {
-  /* line 178, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+  /* line 180, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
   .blog-post.-image > .wrapper > .overlay > .meta .icon {
     fill: #333;
   }
 }
 
-/* line 190, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+/* line 192, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
 .blog-post.-image > .wrapper > .overlay .meta > .published {
   float: left;
   margin-right: 25px;
   margin-bottom: 10px;
 }
 
-/* line 196, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+/* line 198, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
 .blog-post.-image > .wrapper > .overlay .meta > .tags {
   float: none;
 }
 
-/* line 201, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+/* line 203, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
 .blog-post.-image > .wrapper > .overlay .meta > .tags li > a {
   color: #FFF;
 }
 
 @media (max-width: 480px) {
-  /* line 196, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+  /* line 198, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
   .blog-post.-image > .wrapper > .overlay .meta > .tags {
     margin-bottom: 10px;
   }
-  /* line 208, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+  /* line 210, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
   .blog-post.-image > .wrapper > .overlay .meta > .tags .icon {
     float: none;
   }
-  /* line 212, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
+  /* line 214, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
   .blog-post.-image > .wrapper > .overlay .meta > .tags li > a {
     color: #545454;
   }
@@ -8348,7 +8358,6 @@ $screen-lg:                  1200px !default;
 /* line 1, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_post-pagination.scss */
 .post-pagination {
   padding: 30px 0;
-  border-bottom: 1px solid #d5d5d5;
 }
 
 /* line 5, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_post-pagination.scss */
@@ -8356,24 +8365,34 @@ $screen-lg:                  1200px !default;
   margin-bottom: 0;
 }
 
-/* line 11, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_post-pagination.scss */
+/* line 12, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_post-pagination.scss */
 .post-pagination .wrapper > .newer, .post-pagination .wrapper > .older {
   display: block;
   min-height: 1px;
 }
 
-/* line 22, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_post-pagination.scss */
+/* line 23, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_post-pagination.scss */
 .post-pagination .wrapper > .newer {
   text-align: left;
 }
 
-/* line 28, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_post-pagination.scss */
+/* line 29, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_post-pagination.scss */
 .post-pagination .wrapper > .current {
   text-align: center;
 }
 
-/* line 34, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_post-pagination.scss */
+/* line 35, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_post-pagination.scss */
 .post-pagination .wrapper > .older {
+  text-align: right;
+}
+
+/* line 45, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_post-pagination.scss */
+.post-pagination.-simple .wrapper > .newer {
+  text-align: left;
+}
+
+/* line 51, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_post-pagination.scss */
+.post-pagination.-simple .wrapper > .older {
   text-align: right;
 }
 
@@ -8382,7 +8401,6 @@ $screen-lg:                  1200px !default;
   position: relative;
   height: 100vh;
   width: 100vw;
-  background-image: url("/static/img/beach.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -8458,51 +8476,53 @@ $screen-lg:                  1200px !default;
 /* line 1, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_footer.scss */
 .footer {
   padding: 30px 0;
+  border-top: 1px solid #d5d5d5;
 }
 
-/* line 8, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_footer.scss */
+/* line 9, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_footer.scss */
 .footer .row {
   margin-bottom: 0;
 }
 
 @media (max-width: 480px) {
-  /* line 13, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_footer.scss */
+  /* line 14, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_footer.scss */
   .footer .impressum {
     margin-bottom: 10px;
   }
 }
 
-/* line 23, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_footer.scss */
+/* line 24, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_footer.scss */
 .footer .text {
   line-height: 1.5em;
 }
 
-/* line 35, stdin */
+/* line 37, stdin */
 body, html {
   height: 100%;
   width: 100%;
   font-family: 'Quicksand', sans-serif;
+  color: #545454;
 }
 
-/* line 41, stdin */
+/* line 44, stdin */
 h1 {
   margin: 0;
   padding: 0;
 }
 
-/* line 46, stdin */
+/* line 49, stdin */
 a {
   color: #545454;
   text-decoration: none;
 }
 
-/* line 50, stdin */
+/* line 53, stdin */
 a:hover {
   color: #ae3f3f;
   text-decoration: underline;
 }
 
-/* line 56, stdin */
+/* line 59, stdin */
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
@@ -8511,7 +8531,7 @@ blockquote {
   quotes: "“" "”" "‘" "’";
 }
 
-/* line 63, stdin */
+/* line 66, stdin */
 blockquote:before {
   color: #ccc;
   content: open-quote;
@@ -8521,12 +8541,12 @@ blockquote:before {
   vertical-align: -0.4em;
 }
 
-/* line 71, stdin */
+/* line 74, stdin */
 blockquote p {
   display: inline;
 }
 
-/* line 75, stdin */
+/* line 78, stdin */
 .sr {
   display: none;
 }

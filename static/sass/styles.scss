@@ -15,6 +15,7 @@
 @import "elements/_button";
 @import "elements/_col";
 @import "elements/_icon";
+@import "elements/_code";
 
 // Components
 //@import "components/*.scss";
@@ -24,6 +25,7 @@
 @import "components/_nav-list";
 @import "components/_idontknowanamefothisyet";
 @import "components/_blog-post";
+@import "components/_static-page";
 @import "components/_main-navigation";
 @import "components/_post-pagination";
 
@@ -36,6 +38,7 @@ body, html {
   height: 100%;
   width: 100%;
   font-family: 'Quicksand', sans-serif;
+  color: $text-color;
 }
 
 h1 {

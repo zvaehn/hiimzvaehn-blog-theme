@@ -64,10 +64,12 @@
     @extend .col.s12;
     @extend .col.m9;
 
-    p {
-      line-height: 33px;
-      font-size: 20px;
-      color: $text-color;
+    font-size: 20px;
+    line-height: 33px;
+    color: $text-color;
+
+    code {
+      @extend .code;
     }
 
     img {
