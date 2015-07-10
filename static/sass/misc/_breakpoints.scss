@@ -8,10 +8,10 @@
   @else if $point == phone {
     @media (max-width: 480px)  { @content; }
   }
+  @else if $point == gtr-phone {
+    @media (min-width: 481px)  { @content; } 
+  }
+  @else if $point == gtr-tablet {
+    @media (min-width: 769px)  { @content; } 
+  }
 }
-/*
-$screen-xs:                  480px !default;
-$screen-sm:                  768px !default;
-$screen-md:                  992px !default;
-$screen-lg:                  1200px !default;
-*/

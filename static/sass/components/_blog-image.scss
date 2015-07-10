@@ -1,0 +1,166 @@
+.blog-image {
+  margin-top: 60px;
+
+  > .wrapper.-expanded {
+    @include breakpoint(gtr-phone) {
+      > .overlay {
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+    }
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid $border-color;
+    margin-top: 60px;
+  }
+
+  > .wrapper {
+    @extend .container;
+
+    width: 100%;
+    max-width: 1020px;
+    height: auto;
+    position: relative;
+    padding: 0;
+    
+    > .media {
+      height: auto;
+      width: 100%;
+      display: block;
+    }
+
+    > .action {
+      @extend .button;
+      @extend .button.-rounded;
+      
+      display: none;
+      position: absolute;
+      z-index: 11;
+      top: 20px;
+      right: 20px;
+      padding: 5px 10px;
+      font-size: 12px;
+      color: $white;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+  }
+
+  > .wrapper > .overlay {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.4);
+    bottom: 0;
+    height: 100px;
+    padding: 20px 20px;
+    font-size: 12px;
+    color: $white;
+    transition: 0.3s height;
+    overflow: hidden;
+    z-index: 10;
+
+    > .headline {
+      font-size: 20px;
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-weight: 300;
+      color: $white;
+      float: none;
+      position: relative;
+    }
+
+    > .meta {
+      @include clearfix;
+
+      display: block;
+      width: 100%;
+      float: none;
+      margin-bottom: 0;
+
+      .icon {
+        float: left;
+        margin-right: 7px;
+
+        fill: $icon-light-color;
+      }
+    }
+
+    > .meta > .published {
+      float: left;
+      margin-right: 25px;
+      margin-bottom: 10px;
+    }
+
+    > .meta > .tags {
+      @extend .tag-list;
+      
+      float: none;
+
+      li > a {
+        color: $white;
+      }
+    }
+
+    > .content {
+      color: $white;
+      font-size: 18px;
+      line-height: 25px;
+      padding-top: 25px;
+    }
+  }
+
+  @include breakpoint(tablet) {
+    > .wrapper > .action {
+      display: block;
+    }
+  }
+
+  @include breakpoint(phone) {
+    &:after {
+      margin-top: 0;
+    }
+
+    > .wrapper > .action {
+      display: none;
+    }
+
+    > .wrapper > .overlay {
+      position: relative;
+      background-color: transparent;
+      color: $text-color;
+      height: auto;
+
+      > .meta > .icon {
+        fill: $icon-dark-color;
+      }
+
+      > .meta > .tags {
+        margin-bottom: 10px;
+
+        .icon {
+          float: none;
+        }
+
+        li > a {
+          color: $text-color;
+        }
+      }
+
+      > .headline {
+        color: $text-color;
+        font-size: 40px;
+        font-weight: 400;
+      }
+
+      > .content {
+        color: $text-color;
+        padding-top: 0;
+      }
+    }
+  }
+}

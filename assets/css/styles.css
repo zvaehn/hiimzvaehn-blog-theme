@@ -7237,7 +7237,7 @@ th {
 }
 
 /* line 1, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.container, .blog-post > .wrapper, .blog-post.-image > .wrapper, .post-pagination .wrapper, .footer > .wrapper {
+.container, .blog-post > .wrapper, .blog-image > .wrapper, .post-pagination .wrapper, .footer > .wrapper {
   margin: 0 auto;
   max-width: 1020px;
   width: 90%;
@@ -7245,20 +7245,20 @@ th {
 
 @media only screen and (min-width: 480px) {
   /* line 7, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .container, .blog-post > .wrapper, .blog-post.-image > .wrapper, .post-pagination .wrapper, .footer > .wrapper {
+  .container, .blog-post > .wrapper, .blog-image > .wrapper, .post-pagination .wrapper, .footer > .wrapper {
     width: 85%;
   }
 }
 
 @media only screen and (min-width: 768px) {
   /* line 12, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-  .container, .blog-post > .wrapper, .blog-post.-image > .wrapper, .post-pagination .wrapper, .footer > .wrapper {
+  .container, .blog-post > .wrapper, .blog-image > .wrapper, .post-pagination .wrapper, .footer > .wrapper {
     width: 70%;
   }
 }
 
 /* line 16, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/lib/sass/components/_grid.scss */
-.container .row, .blog-post > .wrapper .row, .post-pagination .wrapper .row, .footer .blog-post > .wrapper .row, .footer > .wrapper .row {
+.container .row, .blog-post > .wrapper .row, .blog-image > .wrapper .row, .post-pagination .wrapper .row, .footer .blog-post > .wrapper .row, .footer .blog-image > .wrapper .row, .footer > .wrapper .row {
   margin-left: -0.75rem;
   margin-right: -0.75rem;
 }
@@ -7659,30 +7659,27 @@ th {
   }
 }
 
-/*
-$screen-xs:                  480px !default;
-$screen-sm:                  768px !default;
-$screen-md:                  992px !default;
-$screen-lg:                  1200px !default;
-*/
 /* line 1, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/elements/_button.scss */
-.button, .post-pagination .wrapper > .newer a, .post-pagination .wrapper > .older a {
+.button, .blog-image > .wrapper > .action, .post-pagination .wrapper > .newer a, .post-pagination .wrapper > .older a {
   text-decoration: none;
   cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 
-/* line 5, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/elements/_button.scss */
-.button:hover, .post-pagination .wrapper > .newer a:hover, .post-pagination .wrapper > .older a:hover {
+/* line 8, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/elements/_button.scss */
+.button:hover, .blog-image > .wrapper > .action:hover, .post-pagination .wrapper > .newer a:hover, .post-pagination .wrapper > .older a:hover {
   cursor: pointer;
 }
 
-/* line 10, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/elements/_button.scss */
-.button.-circle .icon, .post-pagination .wrapper > .newer a.-circle .icon, .post-pagination .wrapper > .older a.-circle .icon {
+/* line 13, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/elements/_button.scss */
+.button.-circle .icon, .blog-image > .wrapper > .-circle.action .icon, .post-pagination .wrapper > .newer a.-circle .icon, .post-pagination .wrapper > .older a.-circle .icon {
   fill: #FFF;
 }
 
-/* line 15, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/elements/_button.scss */
-.button.-rounded, .post-pagination .wrapper > .newer a, .post-pagination .wrapper > .older a {
+/* line 18, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/elements/_button.scss */
+.button.-rounded, .blog-image > .wrapper > .action, .post-pagination .wrapper > .newer a, .post-pagination .wrapper > .older a {
   border: 1px solid #d5d5d5;
   border-radius: 30px;
   padding: 10px;
@@ -7918,14 +7915,14 @@ $screen-lg:                  1200px !default;
 }
 
 /* line 1, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_item-list.scss */
-.item-list, .social-list, .tag-list, .blog-post > .wrapper .meta > .tags, .blog-post.-image > .wrapper > .overlay .meta > .tags, .main-navigation .nav-list {
+.item-list, .social-list, .tag-list, .blog-post > .wrapper .meta > .tags, .blog-image > .wrapper > .overlay > .meta > .tags, .main-navigation .nav-list {
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 /* line 6, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_item-list.scss */
-.item-list.-horizontal, .-horizontal.social-list, .-horizontal.tag-list, .blog-post > .wrapper .meta > .-horizontal.tags, .blog-post.-image > .wrapper > .overlay .meta > .-horizontal.tags, .main-navigation .-horizontal.nav-list {
+.item-list.-horizontal, .-horizontal.social-list, .-horizontal.tag-list, .blog-post > .wrapper .meta > .-horizontal.tags, .blog-image > .wrapper > .overlay > .meta > .-horizontal.tags, .main-navigation .-horizontal.nav-list {
   *zoom: 1;
 }
 
@@ -7933,19 +7930,19 @@ $screen-lg:                  1200px !default;
 .item-list.-horizontal:before,
 .-horizontal.social-list:before,
 .-horizontal.tag-list:before,
-.blog-post > .wrapper .meta > .-horizontal.tags:before, .blog-post.-image > .wrapper > .overlay .meta > .-horizontal.tags:before, .main-navigation .-horizontal.nav-list:before,
-.item-list.-horizontal:after, .-horizontal.social-list:after, .-horizontal.tag-list:after, .blog-post > .wrapper .meta > .-horizontal.tags:after, .blog-post.-image > .wrapper > .overlay .meta > .-horizontal.tags:after, .main-navigation .-horizontal.nav-list:after {
+.blog-post > .wrapper .meta > .-horizontal.tags:before, .blog-image > .wrapper > .overlay > .meta > .-horizontal.tags:before, .main-navigation .-horizontal.nav-list:before,
+.item-list.-horizontal:after, .-horizontal.social-list:after, .-horizontal.tag-list:after, .blog-post > .wrapper .meta > .-horizontal.tags:after, .blog-image > .wrapper > .overlay > .meta > .-horizontal.tags:after, .main-navigation .-horizontal.nav-list:after {
   content: " ";
   display: table;
 }
 
 /* line 10, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/misc/_functions.scss */
-.item-list.-horizontal:after, .-horizontal.social-list:after, .-horizontal.tag-list:after, .blog-post > .wrapper .meta > .-horizontal.tags:after, .blog-post.-image > .wrapper > .overlay .meta > .-horizontal.tags:after, .main-navigation .-horizontal.nav-list:after {
+.item-list.-horizontal:after, .-horizontal.social-list:after, .-horizontal.tag-list:after, .blog-post > .wrapper .meta > .-horizontal.tags:after, .blog-image > .wrapper > .overlay > .meta > .-horizontal.tags:after, .main-navigation .-horizontal.nav-list:after {
   clear: both;
 }
 
 /* line 9, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_item-list.scss */
-.item-list.-horizontal > li, .-horizontal.social-list > li, .-horizontal.tag-list > li, .blog-post > .wrapper .meta > .-horizontal.tags > li, .blog-post.-image > .wrapper > .overlay .meta > .-horizontal.tags > li, .main-navigation .-horizontal.nav-list > li {
+.item-list.-horizontal > li, .-horizontal.social-list > li, .-horizontal.tag-list > li, .blog-post > .wrapper .meta > .-horizontal.tags > li, .blog-image > .wrapper > .overlay > .meta > .-horizontal.tags > li, .main-navigation .-horizontal.nav-list > li {
   float: left;
 }
 
@@ -8011,35 +8008,35 @@ $screen-lg:                  1200px !default;
 }
 
 /* line 1, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_tag-list.scss */
-.tag-list, .blog-post > .wrapper .meta > .tags, .blog-post.-image > .wrapper > .overlay .meta > .tags {
+.tag-list, .blog-post > .wrapper .meta > .tags, .blog-image > .wrapper > .overlay > .meta > .tags {
   list-style-type: none;
   display: block;
 }
 
 /* line 7, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_tag-list.scss */
-.tag-list > li, .blog-post > .wrapper .meta > .tags > li, .blog-post.-image > .wrapper > .overlay .meta > .tags > li {
+.tag-list > li, .blog-post > .wrapper .meta > .tags > li, .blog-image > .wrapper > .overlay > .meta > .tags > li {
   display: inline-block;
   line-height: 17px;
 }
 
 /* line 11, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_tag-list.scss */
-.tag-list > li:after, .blog-post > .wrapper .meta > .tags > li:after, .blog-post.-image > .wrapper > .overlay .meta > .tags > li:after {
+.tag-list > li:after, .blog-post > .wrapper .meta > .tags > li:after, .blog-image > .wrapper > .overlay > .meta > .tags > li:after {
   content: ', ';
 }
 
 /* line 15, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_tag-list.scss */
-.tag-list > li:last-of-type:after, .blog-post > .wrapper .meta > .tags > li:last-of-type:after, .blog-post.-image > .wrapper > .overlay .meta > .tags > li:last-of-type:after {
+.tag-list > li:last-of-type:after, .blog-post > .wrapper .meta > .tags > li:last-of-type:after, .blog-image > .wrapper > .overlay > .meta > .tags > li:last-of-type:after {
   content: none;
 }
 
 /* line 20, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_tag-list.scss */
-.tag-list > li > a, .blog-post > .wrapper .meta > .tags > li > a, .blog-post.-image > .wrapper > .overlay .meta > .tags > li > a {
+.tag-list > li > a, .blog-post > .wrapper .meta > .tags > li > a, .blog-image > .wrapper > .overlay > .meta > .tags > li > a {
   text-decoration: none;
   color: #545454;
 }
 
 /* line 24, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_tag-list.scss */
-.tag-list > li > a:hover, .blog-post > .wrapper .meta > .tags > li > a:hover, .blog-post.-image > .wrapper > .overlay .meta > .tags > li > a:hover {
+.tag-list > li > a:hover, .blog-post > .wrapper .meta > .tags > li > a:hover, .blog-image > .wrapper > .overlay > .meta > .tags > li > a:hover {
   color: #ae3f3f;
   border-bottom: 1px solid #ae3f3f;
 }
@@ -8075,18 +8072,11 @@ $screen-lg:                  1200px !default;
 @media (max-width: 768px) {
   /* line 16, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_idontknowanamefothisyet.scss */
   .idontknowanamefothisyet .logo:before {
-    /*content: 'hi, im zvaehn';
-        top: -110px;
-        white-space: nowrap;
-        left: -82px;
-        font-size: 34px;
-        font-weight: 300;
-        text-shadow: 0px 0px 6px #999;*/
     display: none;
   }
 }
 
-/* line 34, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_idontknowanamefothisyet.scss */
+/* line 27, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_idontknowanamefothisyet.scss */
 .idontknowanamefothisyet .logo:after {
   content: 'zvaehn';
   text-transform: uppercase;
@@ -8095,13 +8085,13 @@ $screen-lg:                  1200px !default;
 }
 
 @media (max-width: 768px) {
-  /* line 34, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_idontknowanamefothisyet.scss */
+  /* line 27, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_idontknowanamefothisyet.scss */
   .idontknowanamefothisyet .logo:after {
     display: none;
   }
 }
 
-/* line 45, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_idontknowanamefothisyet.scss */
+/* line 38, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_idontknowanamefothisyet.scss */
 .idontknowanamefothisyet .logo img {
   position: absolute;
   left: -40px;
@@ -8110,7 +8100,7 @@ $screen-lg:                  1200px !default;
   width: 80px;
 }
 
-/* line 54, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_idontknowanamefothisyet.scss */
+/* line 47, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_idontknowanamefothisyet.scss */
 .idontknowanamefothisyet .subtitle {
   width: 100%;
   text-align: center;
@@ -8193,32 +8183,30 @@ $screen-lg:                  1200px !default;
   margin-bottom: 0;
 }
 
-/* line 92, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
-.blog-post.-image {
+/* line 1, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+.blog-image {
   margin-top: 60px;
 }
 
-/* line 95, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
-.blog-post.-image:after {
-  content: '';
-  display: block;
-  width: 100%;
-  border-bottom: 0 solid #d5d5d5;
-  margin-top: 60px;
-}
-
-@media (max-width: 480px) {
-  /* line 92, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
-  .blog-post.-image {
-    margin-top: 0;
-    /*&:after {
-      margin-top: 60px;
-    }*/
+@media (min-width: 481px) {
+  /* line 6, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+  .blog-image > .wrapper.-expanded > .overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
   }
 }
 
-/* line 111, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
-.blog-post.-image > .wrapper {
+/* line 13, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+.blog-image:after {
+  content: '';
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #d5d5d5;
+  margin-top: 60px;
+}
+
+/* line 21, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+.blog-image > .wrapper {
   width: 100%;
   max-width: 1020px;
   height: auto;
@@ -8226,70 +8214,57 @@ $screen-lg:                  1200px !default;
   padding: 0;
 }
 
-/* line 120, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
-.blog-post.-image > .wrapper > .media {
+/* line 30, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+.blog-image > .wrapper > .media {
   height: auto;
   width: 100%;
+  display: block;
 }
 
-/* line 125, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
-.blog-post.-image > .wrapper > .enlarge {
+/* line 36, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+.blog-image > .wrapper > .action {
+  display: none;
   position: absolute;
-  top: 10px;
-  right: 10px;
-  border: none;
-  background-color: transparent;
-  outline: none;
+  z-index: 11;
+  top: 20px;
+  right: 20px;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #FFF;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* line 134, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
-.blog-post.-image > .wrapper > .enlarge .icon {
-  fill: #FFF;
-}
-
-/* line 140, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
-.blog-post.-image > .wrapper > .overlay {
+/* line 52, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+.blog-image > .wrapper > .overlay {
   position: absolute;
   width: 100%;
   height: auto;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.4);
-  left: 0;
-  bottom: 3px;
+  bottom: 0;
+  height: 100px;
   padding: 20px 20px;
   font-size: 12px;
   color: #FFF;
-  fill: #FFF;
+  -webkit-transition: 0.3s height;
+          transition: 0.3s height;
+  overflow: hidden;
+  z-index: 10;
 }
 
-@media (max-width: 480px) {
-  /* line 140, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
-  .blog-post.-image > .wrapper > .overlay {
-    position: relative;
-    background-color: transparent;
-    color: #545454;
-  }
-}
-
-/* line 159, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
-.blog-post.-image > .wrapper > .overlay > .headline {
+/* line 67, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+.blog-image > .wrapper > .overlay > .headline {
   font-size: 20px;
   margin-top: 0;
   margin-bottom: 15px;
   font-weight: 300;
   color: #FFF;
   float: none;
+  position: relative;
 }
 
-@media (max-width: 480px) {
-  /* line 159, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
-  .blog-post.-image > .wrapper > .overlay > .headline {
-    color: #545454;
-  }
-}
-
-/* line 172, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
-.blog-post.-image > .wrapper > .overlay > .meta {
+/* line 77, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+.blog-image > .wrapper > .overlay > .meta {
   *zoom: 1;
   display: block;
   width: 100%;
@@ -8298,60 +8273,98 @@ $screen-lg:                  1200px !default;
 }
 
 /* line 5, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/misc/_functions.scss */
-.blog-post.-image > .wrapper > .overlay > .meta:before,
-.blog-post.-image > .wrapper > .overlay > .meta:after {
+.blog-image > .wrapper > .overlay > .meta:before,
+.blog-image > .wrapper > .overlay > .meta:after {
   content: " ";
   display: table;
 }
 
 /* line 10, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/misc/_functions.scss */
-.blog-post.-image > .wrapper > .overlay > .meta:after {
+.blog-image > .wrapper > .overlay > .meta:after {
   clear: both;
 }
 
-/* line 180, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
-.blog-post.-image > .wrapper > .overlay > .meta .icon {
+/* line 85, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+.blog-image > .wrapper > .overlay > .meta .icon {
   float: left;
   margin-right: 7px;
   fill: #FFF;
 }
 
-@media (max-width: 480px) {
-  /* line 180, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
-  .blog-post.-image > .wrapper > .overlay > .meta .icon {
-    fill: #333;
-  }
-}
-
-/* line 192, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
-.blog-post.-image > .wrapper > .overlay .meta > .published {
+/* line 93, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+.blog-image > .wrapper > .overlay > .meta > .published {
   float: left;
   margin-right: 25px;
   margin-bottom: 10px;
 }
 
-/* line 198, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
-.blog-post.-image > .wrapper > .overlay .meta > .tags {
+/* line 99, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+.blog-image > .wrapper > .overlay > .meta > .tags {
   float: none;
 }
 
-/* line 203, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
-.blog-post.-image > .wrapper > .overlay .meta > .tags li > a {
+/* line 104, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+.blog-image > .wrapper > .overlay > .meta > .tags li > a {
   color: #FFF;
 }
 
+/* line 109, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+.blog-image > .wrapper > .overlay > .content {
+  color: #FFF;
+  font-size: 18px;
+  line-height: 25px;
+  padding-top: 25px;
+}
+
+@media (max-width: 768px) {
+  /* line 118, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+  .blog-image > .wrapper > .action {
+    display: block;
+  }
+}
+
 @media (max-width: 480px) {
-  /* line 198, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
-  .blog-post.-image > .wrapper > .overlay .meta > .tags {
+  /* line 124, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+  .blog-image:after {
+    margin-top: 0;
+  }
+  /* line 128, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+  .blog-image > .wrapper > .action {
+    display: none;
+  }
+  /* line 132, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+  .blog-image > .wrapper > .overlay {
+    position: relative;
+    background-color: transparent;
+    color: #545454;
+    height: auto;
+  }
+  /* line 138, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+  .blog-image > .wrapper > .overlay > .meta > .icon {
+    fill: #333;
+  }
+  /* line 142, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+  .blog-image > .wrapper > .overlay > .meta > .tags {
     margin-bottom: 10px;
   }
-  /* line 210, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
-  .blog-post.-image > .wrapper > .overlay .meta > .tags .icon {
+  /* line 145, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+  .blog-image > .wrapper > .overlay > .meta > .tags .icon {
     float: none;
   }
-  /* line 214, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-post.scss */
-  .blog-post.-image > .wrapper > .overlay .meta > .tags li > a {
+  /* line 149, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+  .blog-image > .wrapper > .overlay > .meta > .tags li > a {
     color: #545454;
+  }
+  /* line 154, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+  .blog-image > .wrapper > .overlay > .headline {
+    color: #545454;
+    font-size: 40px;
+    font-weight: 400;
+  }
+  /* line 160, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_blog-image.scss */
+  .blog-image > .wrapper > .overlay > .content {
+    color: #545454;
+    padding-top: 0;
   }
 }
 
@@ -8430,7 +8443,14 @@ $screen-lg:                  1200px !default;
   width: 100%;
 }
 
-/* line 29, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
+@media (max-width: 768px) {
+  /* line 23, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
+  .fullsize-header .idontknowanamefothisyet {
+    top: 180px;
+  }
+}
+
+/* line 33, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
 .fullsize-header .action {
   position: absolute;
   bottom: 20px;
@@ -8440,8 +8460,8 @@ $screen-lg:                  1200px !default;
   text-alignt: center;
 }
 
-/* line 37, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
-.fullsize-header .action .button.-circle, .fullsize-header .action .post-pagination .wrapper > .newer a.-circle, .post-pagination .wrapper > .newer .fullsize-header .action a.-circle, .fullsize-header .action .post-pagination .wrapper > .older a.-circle, .post-pagination .wrapper > .older .fullsize-header .action a.-circle {
+/* line 41, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
+.fullsize-header .action .button.-circle, .fullsize-header .action .blog-image > .wrapper > .-circle.action, .fullsize-header .action .post-pagination .wrapper > .newer a.-circle, .post-pagination .wrapper > .newer .fullsize-header .action a.-circle, .fullsize-header .action .post-pagination .wrapper > .older a.-circle, .post-pagination .wrapper > .older .fullsize-header .action a.-circle {
   border: none;
   position: relative;
   height: 40px;
@@ -8453,8 +8473,8 @@ $screen-lg:                  1200px !default;
   margin-bottom: 15px;
 }
 
-/* line 48, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
-.fullsize-header .action .button.-circle .icon, .fullsize-header .action .post-pagination .wrapper > .newer a.-circle .icon, .post-pagination .wrapper > .newer .fullsize-header .action a.-circle .icon, .fullsize-header .action .post-pagination .wrapper > .older a.-circle .icon, .post-pagination .wrapper > .older .fullsize-header .action a.-circle .icon {
+/* line 52, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
+.fullsize-header .action .button.-circle .icon, .fullsize-header .action .blog-image > .wrapper > .-circle.action .icon, .fullsize-header .action .post-pagination .wrapper > .newer a.-circle .icon, .post-pagination .wrapper > .newer .fullsize-header .action a.-circle .icon, .fullsize-header .action .post-pagination .wrapper > .older a.-circle .icon, .post-pagination .wrapper > .older .fullsize-header .action a.-circle .icon {
   fill: #FFF;
   position: absolute;
   height: 24px;
@@ -8465,7 +8485,7 @@ $screen-lg:                  1200px !default;
   margin-top: -12px;
 }
 
-/* line 60, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
+/* line 64, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
 .fullsize-header .action .subtext {
   display: block;
   color: #FFF;
@@ -8496,7 +8516,7 @@ $screen-lg:                  1200px !default;
   line-height: 1.5em;
 }
 
-/* line 37, stdin */
+/* line 38, stdin */
 body, html {
   height: 100%;
   width: 100%;
@@ -8504,25 +8524,25 @@ body, html {
   color: #545454;
 }
 
-/* line 44, stdin */
+/* line 45, stdin */
 h1 {
   margin: 0;
   padding: 0;
 }
 
-/* line 49, stdin */
+/* line 50, stdin */
 a {
   color: #545454;
   text-decoration: none;
 }
 
-/* line 53, stdin */
+/* line 54, stdin */
 a:hover {
   color: #ae3f3f;
   text-decoration: underline;
 }
 
-/* line 59, stdin */
+/* line 60, stdin */
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
@@ -8531,7 +8551,7 @@ blockquote {
   quotes: "“" "”" "‘" "’";
 }
 
-/* line 66, stdin */
+/* line 67, stdin */
 blockquote:before {
   color: #ccc;
   content: open-quote;
@@ -8541,12 +8561,12 @@ blockquote:before {
   vertical-align: -0.4em;
 }
 
-/* line 74, stdin */
+/* line 75, stdin */
 blockquote p {
   display: inline;
 }
 
-/* line 78, stdin */
+/* line 79, stdin */
 .sr {
   display: none;
 }

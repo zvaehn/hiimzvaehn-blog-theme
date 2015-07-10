@@ -1,52 +1,35 @@
 $(document).ready(function() {
   (function($){
-  var win = $(window);
-  
-  $.fn.viewportOffset = function() {
-    var offset = $(this).offset();
+    var win = $(window);
     
-    return {
-      top: offset.top - win.scrollTop(),
-      left: offset.left - win.scrollLeft()
+    $.fn.viewportOffset = function() {
+      var offset = $(this).offset();
+      
+      return {
+        top: offset.top - win.scrollTop(),
+        left: offset.left - win.scrollLeft()
+      };
     };
-  };
-})(jQuery);
-
-
-function svg_ie_fix() {
-  /MSIE|Trident/.test(navigator.userAgent) && document.addEventListener('DOMContentLoaded', function () {
-    [].forEach.call(document.querySelectorAll('svg'), function (svg) {
-      var use = svg.querySelector('use'); 
-
-      if (use) {
-        var object = document.createElement('object');
-        object.data = use.getAttribute('xlink:href');
-        object.className = svg.getAttribute('class');
-        svg.parentNode.replaceChild(object, svg);
-      }
-    });
-  });
-}
-
-function set_header_background() {
-  /*var el = $("#header");
-
-  $.get("https://api.flickr.com/services/feeds/photos_public.gne?id=96557486@N05&format=json", function(data) {
-    data = JSON.parse(data);
-
-    //$.get(data.items[0]);
-  });*/
-}
-
+  })(jQuery);
 
   svg_ie_fix();
-
   $(this).scrollTop(0);
+
+  $('.js-post-overlay').hover(
+    function() {
+      $(this).addClass("-expanded");
+    }, 
+    function() {
+      $(this).removeClass("-expanded");
+    }
+  );
+
+  $('.js-post-overlay-action').click(function() {
+    $(this).parents('.js-post-overlay').toggleClass("-expanded");
+  });
 
   var parallax_elements = Array();
   var doc_offset = $(this).scrollTop();
-
-  //console.log("doc_offset", doc_offset);
 
   $('[data-parallax-warp]').each(function(index, el) {
     var $el = $(this);
@@ -107,5 +90,30 @@ function set_header_background() {
       el.css({ top: new_offset }); 
     }); 
   });
+
+  function svg_ie_fix() {
+    /MSIE|Trident/.test(navigator.userAgent) && document.addEventListener('DOMContentLoaded', function () {
+      [].forEach.call(document.querySelectorAll('svg'), function (svg) {
+        var use = svg.querySelector('use'); 
+
+        if (use) {
+          var object = document.createElement('object');
+          object.data = use.getAttribute('xlink:href');
+          object.className = svg.getAttribute('class');
+          svg.parentNode.replaceChild(object, svg);
+        }
+      });
+    });
+  }
+
+  function set_header_background() {
+    /*var el = $("#header");
+
+    $.get("https://api.flickr.com/services/feeds/photos_public.gne?id=96557486@N05&format=json", function(data) {
+      data = JSON.parse(data);
+
+      //$.get(data.items[0]);
+    });*/
+  }
 
 });

@@ -1,0 +1,55 @@
+{{#if image}}
+  <article class="blog-image {{post_class}}">
+    <div class="wrapper js-post-overlay">
+      <button class="action js-post-overlay-action">Read more</button>
+      <img class="media" src="{{image}}">
+      <!--<button class="enlarge"><svg role="presentation" class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/static/build/svg/map-general.svg#general-enlarge2"></use></svg></button>-->
+      <div class="overlay">
+        <h2 class="headline">{{title}}</h2>
+        <div class="meta">
+          <svg role="presentation" class="icon"><use xlink:href="/assets/svg/map-general.svg#general-calendar"></use></svg>
+          <time class="published" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD. MMMM YYYY"}}</time>
+
+          {{#if tags }}
+          <svg role="presentation" class="icon"><use xlink:href="/assets/svg/map-general.svg#general-price-tags"></use></svg>
+          <ul class="tags">
+            {{#foreach tags}}
+              <li><a href="{{url}}">{{name}}</a></li>
+            {{/foreach}}
+          </ul>
+          {{/if}}
+        </div>
+
+        <div class="content">
+          {{content}}
+        </div>
+      </div>
+    </div>
+  </article>
+{{else}}
+  <article class="blog-post {{post_class}}">
+    <div class="wrapper">
+      <div class="row">
+        <h2 class="headline"><a href="{{url}}">{{title}}</a></h2>
+      
+        <aside class="meta">
+          <svg role="presentation" class="icon"><use xlink:href="/assets/svg/map-general.svg#general-calendar"></use></svg>
+          <time class="published" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD. MMMM YYYY"}}</time>
+
+          {{#if tags }}
+          <svg role="presentation" class="icon"><use xlink:href="/assets/svg/map-general.svg#general-price-tags"></use></svg>
+          <ul class="tags">
+            {{#foreach tags}}
+              <li><a href="{{url}}">{{name}}</a></li>
+            {{/foreach}}
+          </ul>
+          {{/if}}
+        </aside>
+
+        <div class="content">
+          {{content}}
+        </div>
+      </div>
+    </div>
+  </article>
+{{/if}}

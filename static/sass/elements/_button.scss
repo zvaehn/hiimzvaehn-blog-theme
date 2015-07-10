@@ -1,6 +1,9 @@
 .button {
   text-decoration: none;
   cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
 
   &:hover {
     cursor: pointer;
