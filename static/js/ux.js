@@ -60,6 +60,15 @@ $(document).ready(function() {
     }); 
   } */
 
+  // Skips the header image and scrolls to the content
+  $('.js-skip-header').click(function() {
+    var height = $('header').outerHeight();
+
+    $('html, body').animate({
+      scrollTop: height
+    }, 500);
+  });
+
   $(document).scroll(function() {
     doc_offset = $(this).scrollTop();
 
