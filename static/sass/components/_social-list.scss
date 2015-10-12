@@ -6,13 +6,13 @@
     margin: 0 15px;
 
     @include breakpoint(tablet) {
-      margin-right: 20px;
-      margin-bottom: 20px;
+      margin-right: 10px;
+      margin-left: 10px;
     }
 
     @include breakpoint(phone) {
-      margin-right: 10px;
-      margin-bottom: 10px;
+      margin-right: 5px;
+      margin-left: 5px;
     }
 
     > a {
@@ -38,19 +38,12 @@
         }
       }
 
-      &:hover .icon {
-        
+      &.-no-hover:after {
+        display: none;
       }
     }
 
     > a > .icon {
-      /*width: 26px;
-      height: 26px;
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      margin-left: -13px;
-      margin-top: -13px;*/
       width: 100%;
       height: 100%;
       fill: $white;

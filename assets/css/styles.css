@@ -7955,16 +7955,16 @@ th {
 @media (max-width: 768px) {
   /* line 4, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_social-list.scss */
   .social-list > li {
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 }
 
 @media (max-width: 480px) {
   /* line 4, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_social-list.scss */
   .social-list > li {
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
   }
 }
 
@@ -7993,15 +7993,13 @@ th {
           transition: all 0.3;
 }
 
+/* line 41, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_social-list.scss */
+.social-list > li > a.-no-hover:after {
+  display: none;
+}
+
 /* line 46, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/components/_social-list.scss */
 .social-list > li > a > .icon {
-  /*width: 26px;
-      height: 26px;
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      margin-left: -13px;
-      margin-top: -13px;*/
   width: 100%;
   height: 100%;
   fill: #FFF;
@@ -8434,23 +8432,48 @@ th {
   .fullsize-header .social-list {
     top: 40px;
   }
+  /* line 21, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
+  .fullsize-header .social-list > li > a {
+    height: 50px;
+    width: 50px;
+  }
+  /* line 25, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
+  .fullsize-header .social-list > li > a:after {
+    height: 48px;
+    width: 48px;
+    margin-top: -52px;
+    margin-left: 2px;
+  }
 }
 
-/* line 23, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
+@media (max-width: 480px) {
+  /* line 35, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
+  .fullsize-header .social-list > li > a {
+    height: 30px;
+    width: 30px;
+  }
+  /* line 39, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
+  .fullsize-header .social-list > li > a:after {
+    content: '';
+    display: none;
+  }
+}
+
+/* line 47, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
 .fullsize-header .idontknowanamefothisyet {
   position: absolute;
   top: 40%;
   width: 100%;
 }
 
-@media (max-width: 768px) {
-  /* line 23, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
+@media (max-width: 480px) {
+  /* line 47, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
   .fullsize-header .idontknowanamefothisyet {
-    top: 180px;
+    top: 150px;
   }
 }
 
-/* line 33, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
+/* line 57, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
 .fullsize-header .action {
   position: absolute;
   bottom: 20px;
@@ -8460,7 +8483,7 @@ th {
   text-alignt: center;
 }
 
-/* line 41, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
+/* line 65, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
 .fullsize-header .action .button.-circle, .fullsize-header .action .blog-image > .wrapper > .-circle.action, .fullsize-header .action .post-pagination .wrapper > .newer a.-circle, .post-pagination .wrapper > .newer .fullsize-header .action a.-circle, .fullsize-header .action .post-pagination .wrapper > .older a.-circle, .post-pagination .wrapper > .older .fullsize-header .action a.-circle {
   border: none;
   position: relative;
@@ -8473,7 +8496,7 @@ th {
   margin-bottom: 15px;
 }
 
-/* line 52, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
+/* line 76, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
 .fullsize-header .action .button.-circle .icon, .fullsize-header .action .blog-image > .wrapper > .-circle.action .icon, .fullsize-header .action .post-pagination .wrapper > .newer a.-circle .icon, .post-pagination .wrapper > .newer .fullsize-header .action a.-circle .icon, .fullsize-header .action .post-pagination .wrapper > .older a.-circle .icon, .post-pagination .wrapper > .older .fullsize-header .action a.-circle .icon {
   fill: #FFF;
   position: absolute;
@@ -8485,12 +8508,27 @@ th {
   margin-top: -12px;
 }
 
-/* line 64, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
+/* line 88, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
 .fullsize-header .action .subtext {
   display: block;
   color: #FFF;
   font-size: 10px;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* line 97, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
+.fullsize-header.-condensed {
+  height: 400px;
+}
+
+/* line 100, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
+.fullsize-header.-condensed .social-list {
+  top: 130px;
+}
+
+/* line 104, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_fullsize-header.scss */
+.fullsize-header.-condensed .idontknowanamefothisyet {
+  top: 250px;
 }
 
 /* line 1, /Users/sven/Documents/Development🚀 /ghost-zvaehn/content/themes/zvaehn/static/sass/layouts/_footer.scss */

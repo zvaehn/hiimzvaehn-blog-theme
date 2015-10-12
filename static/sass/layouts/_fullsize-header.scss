@@ -17,6 +17,30 @@
 
     @include breakpoint(tablet) {
       top: 40px;
+
+      > li > a {
+        height: 50px;
+        width: 50px;
+
+        &:after {
+          height: 48px;
+          width: 48px;
+          margin-top: -52px;
+          margin-left: 2px;
+        }
+      }
+    }
+
+    @include breakpoint(phone) {
+      > li > a {
+        height: 30px;
+        width: 30px;
+
+        &:after {
+          content: '';
+          display: none;
+        }
+      }
     }
   }
 
@@ -25,8 +49,8 @@
     top: 40%;
     width: 100%;
 
-    @include breakpoint(tablet) {
-      top: 180px;
+    @include breakpoint(phone) {
+      top: 150px;
     }
   }
 
@@ -69,3 +93,16 @@
     }
   }
 }
+
+.fullsize-header.-condensed {
+  height: 400px;
+
+  .social-list {
+    top: 130px;
+  }
+
+  .idontknowanamefothisyet {
+    top: 250px;
+  }
+}
+

@@ -13,8 +13,9 @@ $(document).ready(function() {
   })(jQuery);
 
   svg_ie_fix();
-  $(this).scrollTop(0);
+  $(this).scrollTop(0); // prevent the parallax bug when scrolltop != 0 after a page refresh
 
+  // Post overlay 
   $('.js-post-overlay').hover(
     function() {
       $(this).addClass("-expanded");
@@ -25,9 +26,10 @@ $(document).ready(function() {
   );
 
   $('.js-post-overlay-action').click(function() {
-    $(this).parents('.js-post-overlay').toggleClass("-expanded");
+    $(this).parents('.js-post-overlay').toggleClass('-expanded');
   });
 
+  // Parallax
   var parallax_elements = Array();
   var doc_offset = $(this).scrollTop();
 
@@ -105,15 +107,4 @@ $(document).ready(function() {
       });
     });
   }
-
-  function set_header_background() {
-    /*var el = $("#header");
-
-    $.get("https://api.flickr.com/services/feeds/photos_public.gne?id=96557486@N05&format=json", function(data) {
-      data = JSON.parse(data);
-
-      //$.get(data.items[0]);
-    });*/
-  }
-
 });
