@@ -10,6 +10,16 @@
   padding-top: 130px;
   text-align: center;
 
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    top: 0;
+    background-image: linear-gradient(rgba(00, 00, 00, 0.3) 0%, rgba(00, 00, 00, 0) 100%);
+  }
+
   .social-list {
     position: absolute;
     top: 20%;
@@ -83,7 +93,7 @@
         margin-left: -12px;
         margin-top: -12px;
       }
-    } 
+    }
 
     .subtext {
       display: block;
@@ -105,4 +115,3 @@
     top: 250px;
   }
 }
-
